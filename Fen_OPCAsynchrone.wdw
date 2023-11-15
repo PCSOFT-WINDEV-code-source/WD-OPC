@@ -1,0 +1,683 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Fen_OPCAsynchrone
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : Fen_OPCAsynchrone
+ identifier : 0x2566f0374607c042
+ internal_properties : CAAAAAgAAADvgeRne4aT+Y0xvj9g0Bc3+OJQ2rKgKvGJkQLDMWjQGOhu7BhFFcWarLGRJR2GtnK6LArbPN0JubFKv21O8Zy6DmyYkkw+QtI5NfAlhPEzfDKq5+eP9lXuRuznp9ss3VoYsyi2XU1C268oH6+BZ0MxrZltmNvBCn20tUIgi/JUDsHGS7Cgak5n0OgP7aWB3fpsaBWX08ay4fqTr2YpjmSNSzpvxQVMPgxQu9IA0m4XyAgHA+9a9+zA0+mNCSG+SGPBzjGnOROtH0jMMXHinUybkKQ9obZG7f3anBOyPn81JTNFeV0ziO6AgeegKVQEenlAYaJX2NaL1QJV9q+SnGb7f6cs7XIYTlghupB/g3HGWYlvp1l61kyRdnyV21SCPs3/oM44bUOenjMKTatiTwIxOrfEN4pNBFOzp+/pti9EZ9O8ZUKNERM18/nUc00LwaPLBTxFCnhheuudgRNcUbv7SABFmT8r0VjuEWdc49RVP9ffpwyfv+zh6pmY/I+zGeEN0h2V2lJQMvwNRVnJDlUbmxWJNepTOJz3p57mM4xznCKdOxQZOG1Olb0Y7Afueutoun2OA/N8CYrTV8xJKgHk1oirsedL6jhJec93RJNKz98ztVy6dkMxwX0wDFc36Yzyo3Yb9MdyW1PAce089LwoM6MgCeCUBw5rtd7WGr+ZIu/fCqkmt1ES+zYdetUQp08Qwl3Lt22PL2uLdjxdWm2jo6v9AwVDQkFPuHMNo3sz7qne66pY4XzLVQcKpN0b8SDRmsPMA3pH+edVEhFUcZtypRgdk2ZFICZ6bK2JusbqYcH/DSzjrjpD7CWW9+D8KFcgLjGSz7Hy
+ properties :
+  width : 366
+  height : 492
+  widthClient : 364
+  heightClient : 460
+ controls :
+  -
+    name : Lecture_direct_dans_un2
+    identifier : 0x2566f037460cc042
+    internal_properties : CAAAAAgAAAB53kLvhRjILSRijAhSl3IqbVIHbS3LOfWQt0f+H0EC19L0aou8xNyOKmPMVR7/2t28PCqb2WbW7PSfertSx+FuJzD7evNxeTHqgQZDPz0upw2c0u1fIdYzBHAodc6s4ntlQew+ctJztHlnDc7tnKehF1UgCqmwlNIE5gS/Iw3lb7SFgbP4zQIbBNHBV8ZjXp1674PQUw4nP/ksDKHfNzqsDAero80sLHsGp1wlBSShSBsRds8I66+b7jyFt4zB0Wiw7sbgWD3kuMF7yXFkHLFCdg6o28Z1UQweCLKHjgw5+S+WjDCtobvSpygabytv/jFRgwwAiFNGh9Fg/PGbwOskavsNRslUHADu9TS16HrmX/zPQge8nV2brlOWzh0TYo+D0IA6uus1uYbBGag4gAdEvmx4l/yx7xEk/kw1XSL6kIz/lmbV+Fsd8quB166CGQOQxFNyKfHBcssb22yIz2IobZxcJds0EzvATOZUnZcTp28X3HWhgEgbW87kKZz07rBeWyKJmC9s3D9w+A==
+    properties :
+     x : 13
+     y : 26
+     width : 185
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lire
+    identifier : 0x2566f037460dc042
+    internal_properties : CAAAAAgAAAAabtlgpN3iMkLU3XXiCEv4zhGzFz7GGXsxS0yb6RhY/1jFcZiNdzF9TOGK2qk3W11kVUUyV6RjCw1Rmsr//Rg2uSwSkhwVOFBmCe7LgisOUjnRgcN4t3rfbKvULLo6Ja5lWqxK0p3DJ2neGjQ0I8hqRJNaOf8loMol7NrhbI7NuEAUKISijzemN+CqchECAOjgpHMM9HpDywbo0rZ69sBFwlXB3PkWlmLhgYXStRVjA8V6DOR0NabUSdwCJv+bARP0oYu8/nuwsSMOnG6RGAa/R03t6EJBr7XvUBTJtraXZP0ECrqVXadrxqRIo4vSW9Aj8zm747yJED/il5Iu1TESJv2m6tDP4Nt9/97tWf/43N3+aJrW6TK4VvaxsE1nYciHviJStbIUNmsFaAif8H2u3mJG27yzPiEDLK1M1d7wDKU9yetR58slyhvcsnEihqkU/p/5flG8pk4pFL1XIoQdA7Qjt4bqkQctHd2XnJ9bLTJhkjQ+QfPS1eUvz4Texx74XDe06LcPSMrQ0nbeZegWPVnPjBrj9dH1VtrZHKgkkIbbPiLxu/vs9mI+iQfabtHwT3hmfD+xq7PSPkeyIVUpofgIlcvbQ4XS87ncPcHlXWQQVGpZB02ljdDcWDitdpzrEScFal2+3RYPlrD3msYh8K93PCA77TbXtmctxdo80HfSCxDkkOTdPEcZOOnR7JyYLjc0/PA+rbMyRxzi8ertBIt7G74pXakVEaUs6Pf+9GF2lzq+BxGnBiOBojPzZAH7ev9dDYYhYa0U3tIuFxszdyiTo0GZHOEjoNrYVqNEgoTx9L19FqXpJ/jILh8z6Ci79cXzTbxXjwzbOjFpDg==
+    properties :
+     x : 198
+     y : 26
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         //-------------------------------------------------------------------------------------------------
+         // Lecture de l'item par le groupe
+         //-------------------------------------------------------------------------------------------------
+         
+         // on récupère le handle de l'item
+         tabHandleServeur est un tableau de 1 entier
+         tabHandleServeur[1] = gpautItem>>ServerHandle
+         // on prépare le tableau pour les compte-rendus d'erreur
+         tabErreur est un tableau de 0 entier
+         
+         // on effectue l'opération de lecture
+         gpautGroupe>>AsyncRead(1,tabHandleServeur,tabErreur,ID_TRANSACTION_LECTURE,0)
+         si tabErreur[1]<>0 alors
+         	// l'item n'a pas pu être lu
+         	Erreur("Impossible de lire l'item "+gsIDItem+", erreur n°"+tabErreur[1])
+         	retour
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : ValeurLecture
+    identifier : 0x2566f037460ec042
+    internal_properties : CAAAAAgAAADKTtw9YT+WUPfNUCOEwUh48Rq4ys63k+2/u7Yznlo9JUjrhFtzWvZbh+Iu9kddbQqN24rT3i3d7ZVNBIED3aXFWHt7r7Gjs+8JWlGRncWzP328vGO+aF5grV991j37eHiCMebPblPQ4cXVe6anJgXcBsRswYU6ro2iZp/DiNpT2EtQbU9KTC3zbefcrqb36L/fArp106OBEZ9yMuWeMQIdDypUblHOcg7CPalrL0TfTT57hMvByCfQm3HMuiTcn7XBZcXx6rOf1aEmrg2tz6zKQPDo5Biu7wN/JjEnuiLXiCzizSEu0nvEn42zF66ONqM+GnY5hLYntzC+AMiHHnFBsEtXEJjKeASpBarR9P6Wi1ICRImrJNLU/i8DgjJbNRwkbI89lYEz1t9ScldH4QkhUTNWgNpoDboWtXpl41Hz0w+P4KcuILGj2hSmVInUzqHhvybgBwWKiD1cbQWRfOPK0oEK5yowf41Mo66MPcHxhF2lVFmw/8Uw4G3+/UeKyuBaFRjxgB5s9+mi2X93uwov+gAobBV1TcH7xkYf54cRcfwSotuBTRnTp2IFeI5DQT0ZTTVHUHpoev/ATwVbriO8XrgGDFGcYjJ/on+fnJfZvBesSTcHrg8nqWnI+EawvkqrrCVjBLnD3lNuYakrE0GZqbOI8iFxEjjVP3TOX0ldpZE7kSo402r9PkBTMcvVVy4Fofhdk2hpsgeCrxJpmTMtMQuqyhPogwZ2CVS57lYRp6OIqQLgypV8T5HKqw0zV/dGCd/ic/u+hjl79ViNE5ZFqYsJfw3GFGh8ioJSsEabhw1kOwZ2JB++1Bceuu282ABlRHVog0PjvDMc/fj7m2z0GYfGDwxQyiDefBcyDveiSfC3C/Wb//9wp7CXPhba+7eUANFbkbfRdcMePg5ecQJLohWSewUhrMdA3a1nhsld1QmeX5relT0mMl1GJu6t8Nqtuf98uZMoYLoAYDlil+pelu3N1cjpARNS88HaFZFgbA3WOzelWcIHhz2qFNSQsvjtqr7PZL4P1dXjJ2Oo429DFnjULJMIYYl1l2T3IlH5kmEmBOw3NLXTz68lPg0tv7DDKx+i2IiCc7FJvsRpWVT1If33PLD4mLz0VSYRXcxGZkGVaCRm4U5J01pC+k4A7IqchG8hDVXLeA6+5n58GrVXPGt1IYLN/0iBMcYaTveXFcJtu4OMa1ZOsA9h2klXU8r4Y9izZ3TWtYQgPD/0jiPHa/5an5LUL+Sc2y/B1foSGY41rNyi3mAV5gNgho2jwKnroV9NMdDtdBhP12s1IZLO0197bI4rhilhPkRWjfsXsiGlhrtnoCs6
+    properties :
+     x : 13
+     y : 56
+     width : 263
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : QualitéLecture
+    identifier : 0x2566f037460fc042
+    internal_properties : CAAAAAgAAACXK2lqjEgPtz4gLm4/2vGfjPkZq2FGHsSg/Lc0Xy08ZolgW5qufYlekFPrQ3yIsE9qFO3eZcDc9ArqVWLTZCtzo9bumuKxXntvz8Tc3lyzlYFey2q108EjIiSa9yX7MHQ2Ie4ftkvw+QXNj/a/9r0gAhyskd0Cnl0i9vuT8GK7TMdQbX+6vC0z/Vc0MsIDJL9/vr7B338NretGwkk6RcZVj5aoem0SFqr+eQH/29gLTRZfsG+ttEPkh30kBmiIG73J+RF19t/bCe16XlEpS6hKSMRkMNxiMyeTognjpnZzQFROSc2C/peI+1n7w/I6avsOxpp9MKrTy1TSKAwrKq154OfzjDT2rNDtcTJd6MqiS6r2UEXXwHYwOrP75p6H6cxkiAtR4TX/Kju+SjvbfU1Z+W8KtC4cwW6iaeKx56UHu6ej7FMSDO0/XvD2+B1Q2omxY7r0m8FWxMl4ZZENQPciiq22AwZMs4Ggl47AybX1XIVpMN20C0F0dMFmSbOGrojqoXy1PLLQM70+Qdujpz6PWuTcsFnJqeUnAka7+ztViZxmRm9dUQWfE/Z1NGrvVX2xQfk7fPb8rvOcJ1EvEuccvlwqSJXwLn5D9jeziANthAdYPTP7wmOzDQWQdLKMerpjGPG/yB0P2pdCUZXfP9VxAf+UxqPvuIoH4ZKooavLM2PVtxTCgQAHMMLpG81HBbSPa4bvhaZ/rCnkDfR7m7mzq4243AUmeUBwo+JriMCXxaXS/7w6+PuOWeuojY9VVf0gK+2E1VEcEOutu1JHPXSDW/33YSf0OgrevLhc2gDBRX/WASDgkpWY1mnsPJ/+nkbP7jM6NcFZNr3mM8oFdSIKcxk0sWYuULpYZgVMIAmwB1IReWeVreVKKSIt4AA0SV1+MhfVqxU33x04xHiwU6jpxD+wfR8v4kEKB2vh+KsbEyuw3TwwM4OQrEek+HhXbmBHk1WWK+k2arwSZiucQcBMGG+r17LXJz20lVcMV0MWoodAkWF3vyDZUWdYXh5aaM5n9JyBtlR9n89tRQ2yTaUheOLCLh02l0M3WaK5HFtvAANIGsbRegO9GXkL0I+/rZ7VzZU8Mn5gVatzVHbb+zKDc0/dxjqulmZmRwR7d7ZcVKNvFsZAJ4wbpXx4hODCIlDO9t2zf9NJggBQdPC+tCvNvu3rm4Tb/RoLi6SEkJHdg0z/IQ326dRwiikPNOPJi/Qo0y6Nnxy9Rc+8cMHq1EHqQZRb/rHFGj3onobrz9iyQ1Z18ibWSpjjHksWyP8hGBML+a2v6cgZVnzzAUETg7Loi89pLk6rRhsR/pYEQzhGQQpGGxYa9YaX
+    properties :
+     x : 13
+     y : 86
+     width : 263
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : DateHeureLecture
+    identifier : 0x2566f0374610c042
+    internal_properties : CAAAAAgAAAB2LuY/ALtmXxaVAuUZFbYolcWIER1NoQvRtxcFUmWq/UVmK8tHlPiedKL8j6LcA40ie2hrH0zC/iB1tmE6E1qw0qLytFjU+4k1NJBN7Ar7+DLR8DnCt6uPeSgB5F4nEx5z2qw0eymscWDx0fLWeLKfl3Vy6PO42ted9CkOAzQRa3v9r2LRuQy7AI2YHP3HC7ZXhEe+UvdMKOKqMy3aTdJEJ4dptmcv7Fyptwg+69jVR4xKBLvvx1a7T+YWQRPDMZkWQmcWJ2L17sSNP/DhKdXL+1X9Adwc+bU8yrTz3sPPWPpZor8/YVd0+lWmvijelhw/05UAmIgoTbBuAhJ4uMVEBcRGHD1Jx4dMkJIDdoPdLD9eaAZsLViK7ZBoRTxSPrml8vvcv0GhzGGOwW6IYH7z6vg+ZWdIvsmiGIwopnho+i6R4cZ6xUWspLLYegDIeXtquToj0bJj00QBlY2u3zjWGlJe44P9qEDzlaOEdxz3T/mr70aL2wKfK76/KBwVrlXotftSnZXutgDE+pR6Korix1hE9zUh+IcGLn9SlDiGir35BDwveBbZ3utXhhRUtyDRREswUfmeHlhgYx14AAf/YLjA4XCwuP4BnECyJvNkOYRsv5Ooem3Vw7hr1Q/l2Z8EzR4aY+unspdJYmsNIi11pLeyyQ9N/cob0tqsEIC9o0Lc8X1l9t/k4EPj4rEJkhF9k7bPESMDAbbBce8OrcM6B3uIj8Q4c7KAX2UnXZ5NFrQeXbxx7DzfgauoC17uJP5qKKK290+I5NO30Yk4z5ZoYp10oD/UDakYb9NGxgG6GWrir/b3L9qH2+xX1YSuQWXQmyjfcY4YD1MAoxGIkgWb/ivQVTMlvIU7Kb9jIUWZrEQYq3XhMGpxu0Rx3vLpmzAjZ5SnZwqW84tSLD69jxEzKD3NW8g4219wz4GCvasyfH46+quRT+g1Q32zhq4nTssA138GBr9VcAJIJKuO3aNmZZIjibNpddwrddG4XVpjsoMSWwnbhuOx0AXgoL++IpnMNLc/nRqIehkeWloVxbIeG3zY6BwPXeH4B6JxLD4LzL0wWwTFESkwX3oVNPU+4dAZBc62gQsyzLWNq8OlGJoKES2EnqrCoSPSAsH6J5rpnpLDbnE3kTJXof7jbFXB6dOO3snUyu8ciKR/6lWAS434CnZ/Lfg3to+ts882AV3egufABCGAAd3G2/f7/fIbhIcVmpm+sMA+uDJDOpGTuTWBHwmQo5gn1FunX5njtziiOhbiCMx5iozUQUp8h6XZCbrZMz6hBVWpIdFO3wdu3xPBNKt+nPpvBLHkVhQ8sl276HQOhGuaBSkFx7Hn+opqtU8WWq2ViSd9ms7lb2RPdt1u9QJk0M7Vev0=
+    properties :
+     x : 13
+     y : 116
+     width : 263
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : ValeurEcriture
+    identifier : 0x2566f0374611c042
+    internal_properties : CAAAAAgAAAAS97PN8KrlY1fwxHULRSPsj1uer0d7WFJqcKRFGUETm4hJk4hnm16a1w279oM1ZmJwoSL9Q+2gSPCANTWLTQZE1AFpIO61azX+p1iaSY5aOacIWGvQcI62itBSZXfLZj1IjF4wP6S9OWrGkjyHhaaCQoGJTM4OKH8+BdXaUXbeb884HJhqpKURmXJTRrABqcbq/Awi2BiuCDKMR63EvY79uKid30wXcVjkAQeGEx0V5uS/u/4VdKLeQy+6O51acYr3DiFZRF9JbC+Bz/4QPLgNl2cHUaQNNWD8E43a8EYASxza7hklidM42BG907CwmLFECB5zrR78DnZni3IIMowyldlqpJiVcXjOjsLPJsfOjgOBXWoOlzKVjN9ljb/v7gLCcP7eUQCUBM0ACaL0LqynLFF3d+u94gKSuWRgVdAOYneP9JOxqamcMEJm9ODwKnNXtni4dQfV03mY7oWs1LY5wn95pcVF0wDggE17q+/pR9ehwoYguKMSq9eaWM0zAGNrma4v5/fNVd0MBOlJjBiwJ0EndyQ3i9bipdO+ZH3CNBvNiAHRwjyUOZ67jvZRJchZZBk0NZTckh3Cg1TMMFxf0UawlV2K4fQgVQ509bEWhOSSmAryWxYddeuDjn3hilLZPblQWFGM8xYqDL8b7BgcbfTEVSFKUvGVzMzLvc1us5cqU1IXzEcSKwN8EXz7Bqx1yMIDQbj/taIhrPSAAuNwm1A/92frv9aS49FNvuPGo5zA9+hGFig/psF77OIXstj6X2qxqcbv0QbSaVZKnqzQwfynTb52yXHaO7a9jxe8nZqBXBVZ5YrHdVNsNDvhqEN3gQ1KVm2YLsZpbW69ddCSTMstsUB8dI/4WTMFunfkZfiyPXv6TXMxImd2hRb4/rptK7yxil9Iz6cSLX1eDiK8Ku/MzVGEUOQzqFWnA5kwDgPbicKWImPdwdpQzUFvlNi8KfxWkou3E1++omohKTU/4w7cAfv8XzWKz8fYu7hQX7W4I9D8tXSe2Y2RNvvB9nyE/bGXI7KzgKCwRZ5rztoTiRWvWFQbyqoVIFKBtONHpRdaRm5lUJaXjgZXXKKrPKumnCPrPjaAdkKCZ+iqBP+lPUAWHm+4AclFR+KNN872c7JKKulm3RU/ZwBxdyyiSWbnN9u/GG5aIKStJMSzsmi+jw07DkpuN7Z6WcyKbNlEz59aqLMNa2pkBFYtq0tzEaZNYC5mRxAF4h8encew6osGPJBYna+dTithrdqkZWKOGFYnPjW0hezTh7k8ewLa8oS1ZzCGRmS8EzR9DiIFuvE1oYaHcxwVNK8W0nwMhDJn+Kz1x/t5cYLjzJ792l8TWQ==
+    properties :
+     x : 13
+     y : 176
+     width : 263
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : Lecture_direct_dans_un4
+    identifier : 0x2566f0374612c042
+    internal_properties : CAAAAAgAAAAlPvLr17yYymKikzggxOGX5bM2UAHjZAZMzUANt6kNB6qNHeaUa9BE7qmQdJLN3rEKJ11fPIzrXHfj58BnMDdzNndgIZu4JoVzkNHtPjoJYfXdtygcLWoRdHuWU9OUI/EFvIPTuc6BbFqTiWyXLihGN0ju+Ox3ahit7c/eFKDmDN4mkd2dR04tKoCniRpmkn1O0z2qDYwxndb1dX62URB6/wuYWfayx5C/shdKHYh3OmgBduuQryJJErzfA8+3Ohkz9pofc4TpB7+vyRhV+YkqX749AbM0b1MWanbgkcd9zRzqDYJQJunZFQT2sI763GNm4cPU65L4lsX2YFhsD+3q71nKcpZ3xMuqr+KGJwvMQe/ht/9NJDWSbCfSmcIuODESFoGDQH5m4KNS0JjvjFAIT35xWbyxji9AdQvdk1aMzPfTJy7GyQmfp7gyjg135edP/snNtaiFKS38YnCEzx8qtI5L8slMm2FbcrgoQKXYFZZPHrkWVy5uvMs3S8lJI4mStqM3wy65z993Dz2W8Q==
+    properties :
+     x : 13
+     y : 206
+     width : 185
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Ecrire
+    identifier : 0x2566f0374613c042
+    internal_properties : CAAAAAgAAAADJMZnV8uY7gNgEOLv8A4iPySHAfiTzAQLnMD/yU+8Mko7mr9Xrr7odhouVCOSmcYSBwLRwftkhpEwePIPPkoDRk7ZverofylGmpNWAmDFWkMoD/IlKJeeEfhHgnDHH967I+nbIJrvJy5rHpy2erK9hguENhdRyLdx18Tmp1qdAlzxL96yE5SKHKHUHkaJX6rF1PobNnRdivl261aj6wFLWQEU62q73vr0p9NV0Z0eoN+xfq8y4I3FTO3yQcQsGUO1D2g7DJpVGBPNouBG4VXw25RbxA+q0ngCgQimm+dy9Yi2xX2V4bB0rCk9YGNzfzPez3LKV3NoRsuYFI9kDwLVmdQWYrQWaGPxJ7WOBqBKB32G8Um3sBmfjecLnmOO44vbjy0jLW0APkxrQkhEcf31ntejdKq12c9XW6i5VcSw92WeO2TPCxh8huzZLKEgdZdrix0G3iHDU0gQwyM/lqEzHPNt0IyUqOhv4kRFDE1cocV6mE8ue3rXsSS8V3rElnqpCzWZeMOCOWjxR/aUo11+uE6H7zjvruzNkUmHvEhJPidGTG03TRIJHoeHsS0mEWtrgD5vAKNOGgu9e2schwBjTrc6RJ8B3NhigJJge2UChT+tJAXJu2SOtXMnCiDX4XwiCqmmwBFD/DyY8S7rlquPq6CVT6ZZqiERM7CDkYx7nqxJE1U0po/aQoq7eX4lZjMTNl/vclRzw3mTcWpllNPH1qux6I6R37bgwSKqGSR/gugRw5xSbwuwZaOLbxhoh+RVlt4ydMI6gjtfmzzfVm8yHMyu48wQAjjXCUZv1/RD/kagfiJrcW011clt5g3CEWAcqVwW7WJf4huLz37RvUmp8Czg
+    properties :
+     x : 198
+     y : 206
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         //-------------------------------------------------------------------------------------------------
+         // Écriture de l'item
+         //-------------------------------------------------------------------------------------------------
+         
+         // on vide le compte-rendu de l'écriture précédente
+         EcritureOK = ""
+         // on récupère le handle de l'item
+         tabHandleServeur est un tableau de 1 entier
+         tabHandleServeur[1] = gpautItem>>ServerHandle
+         // on prépare les valeurs à écrire
+         tabValeur est un tableau de 1 variant
+         tabValeur[1] = ValeurEcriture
+         // on prépare le tableau pour les compte-rendus d'erreur
+         tabErreur est un tableau de 0 entier
+         // on effectue l'opération d'écriture
+         gpautGroupe>>AsyncWrite(1,tabHandleServeur,tabValeur,tabErreur,ID_TRANSACTION_ecriture,0)
+         si tabErreur[1]<>0 alors
+         	// l'item n'a pas pu être écrit
+         	Erreur("Impossible d'écrire l'item "+gsIDItem+", erreur n°"+tabErreur[1])
+         	retour
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EcritureOK
+    identifier : 0x2566f0374614c042
+    internal_properties : CAAAAAgAAADKV9Ka4kEvxQzv1xNpOB1fVrlRvbbI00uZaD6PUAHyKGIi1hdMHgg8DojBVGT+AtLvfQsyV8F6yfPowzcOj+v+qCD84tmE4KveDbd8hxoHDIKJY3W97RBATC4zXAPUz9vIEq/8AHnOidnoTnV3d8MBM0FNB+v+l5g7qQy4tRD04HKJ22wh2R5VbecytgrzOY9FBK68/KZ0jCJm0F67S3FTMTcUlZjjxpgj/Qi2DnMKh0XCfsbqgC1LXGbmEyjAbsu8XqMIs+tgClisUycx0uF3rkHEG8tpuBFNILck6b4Luoe9V9nvTvOifzljOf/iJmJCYiWmm8k+fW6Hff1bJrIZdhbrAmaTev+/XIobp+TplL2h3RqdfsZSpyKoiZQSZEQrXa2IjbPg5EC97+kryo/3+UmuB15s6/s28QrcQqFOaOIwILTn1JR2kOjUv5lm9yVCoI5RGV37Lw1R2azQxZLdEj1iZREnfQAkMiwGQ5PFFVc7UmbixUU4BdRm954hZeW8OlIXZyC1UMKJ7OJ6bCl379int7if1kI3TZFYA91P8CTDGi6oimrgnky+n6D1zuWgrwY6bKfjtgcfPYkaNszc2pWvfURQJ0E1EBGcG7OF4pTR33OlJdaUFv3lnnntApCEpPqjA+FBlc1oY/S1ifcYZ5lzGm46PUO5nAZOBdTRSJKHS0rhtlQbPB4WhfqG/JPHiYs6xxPUe3IHf7oYsbF/n6mSYqCqiNgMD1RBVwvJ7Egy6SDPTrDG+DtMjC2Ux7/ITUGyM7J030AKYnA8jMN+d5wIubnuN5CejHSeIrzF0VJKLhPpOja3vETqN796AndMZ2Z062W5b2UTLu2tL1DUbTOJO162RQnLZU4BZsUb3EqJa8srxVLJYzpyb2Tv2A8s1uuY3JYSJkax8VxmRxyzj4LcwbkjgD/y62AZA4MvEDSOQTshfhgN3VK68sLlCM/QXH6OoYtCd2iGd/lU/ZHPVE4vpDOq4WZ36T988OiT451KVZH5UjbFOWxZJmTouyZGxrfkhPk9wQ7dUlyE5PB2tGNQJk9/r7ZGdD61/SjpFquFgm10DgNyjP6zZikV4Dg2axvs1rqsIbiM4M/NJm2mOtZEq2kO6jCER1jGjEFYkUxctrYxI6BPqxeVxMTZV7qe57Kea9i5JW8LyIS117x2b9xzJ6ht15m0tB3gVtmIfLKREOe8atIJRa2hQ9LUXq9H+ZjbrpRe92WLntYLjsHuKyR9+0ICeVljs6/tUp047ItG/ItZTsjNNqxZu8WEfBylh5z/XMC+ftd/HmPmBQMj1eLFaUDjw0I=
+    properties :
+     x : 284
+     y : 206
+     width : 63
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : ValeurLecture_Change
+    identifier : 0x2566f0374615c042
+    internal_properties : CAAAAAgAAAA/SJtWwnMBlPzfJTkBqUvHqwuWS1IpkfAfHnyHtiTVsNPRj1i8mBpnbCFJ/lwmuUX61WQp0b5+Aq9g8x98xgJoIV7kJmsCN1GRpwDSzUQ0dVkGWUoMDlaRYb0sJywZ4yjT+Boo9EcsOkEorfz1HUKEIHww33Lk0bf4xCx/OKYqNRZAPtSucx9g1YWFLLfifNxyZkWTUl2bOJ2Nj03dA/Pr2niam9rJvE1WTrMIaPm+HtgCV0EVCBT/MSQTB1uy/r1r/q1uKPSDiPzRmdrW/UutBySpHrGPfGJfRGudeKS08VQ7MBsZglemeIB7I1UKGEkYMJZd1GQ0uCdiwy++ZH4fOwpTK8BJMRJjAaNG0Z/1f4uzn+dWfLloAvcV1axpGI/H8BPcGo2Lr/59i8gWVCohL/v9/bEn++fJtT1Fost6h2TwtEdATBI8fER28xWxcVRSa4yKmWvcCD1iCj6Twi4AO6+ofTMaMkNjwJPq0xCdQuOB8nvgc0O42uyZlrEnTbVI6sMvGkooMmcFipZdVLko2h92E2NZKVyWXCxSaPfZ74LYt8f3ORc5paLAu3RsJpiFQBkXXWKNGpyfVkBF5EN0HNWQ4CqF8JI2NwL28ucYVE+ACc3ODDVT5UT3eGPVf/uRpoJSrDvF4IiniA/LSmLkqzBmNohuLpCZHKvpQhff/Xf8I+xb8GdDLsCYWwpbD3Xhq3xTyNnpUUiNPboWiDIdY+1T74WKWQb63e5PR8S2ONiCDkkAyuJkWRPdpcrj4MHcIrVo20djX3SuOmmdSbaRKERNXZBICqjgbqyI8AWe02Kku9+vx+l5SGGdU2goPHsVBEUKdsPSywF0cHrwsTbxaF7sy1aVF+1cFeQtsRj3eglmMCOr5cj+HsehAMwdqpJ8E+1ny1Lf/tjzfw5OdkOTnVh5zpYyGFSYgbtGDnFF9MTeVvxp+5AKZvuVD4Fa+Z8gdGEFEEXPySetVJQ0ae8SM6VlpEGZwdukTtw/HNN+XaavQX/bYbUZfuSfVyFk2//Nko9Y/S+X1vzq89mUQhwge6cFzAJS2Sc9CoLyPPe7So4zA05K1blnaJWZ735S0cH3J4wH9aw1aDYevWZ+FhYiq05qdkkbrO141wwsSPTSZAi7p5g7piIXhXSQJGM0CORIKNi+j5glbQtJ4nKeAJFUOTyhFjE5LxmmXmmkPvZJxROYPLN24Jnpiglyh5W92dAJTgUVNSRk+igrH7rB4FdDyNPYSRGVFvgN5zDtucpsApFEhQLRnAvfI3gmsmnZvqaNXDniNmZ760NrwiWSg5QIu4pwSZ3ZjCvlGXYG3mrh0pUrxqsrc4sdTuX4a6wL
+    properties :
+     x : 13
+     y : 326
+     width : 263
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : QualitéLecture_Change
+    identifier : 0x2566f0374616c042
+    internal_properties : CAAAAAgAAADjUFf2qY6FoFBEWRUn87H729m2zfY2OU1lzcDo4JmxTkRCyEnu98foYrYYcrpF3C1KY0kVgFSJz35kB32hJqbpIL+eLZvyS369DVs/7cPBFp1EVL+TRyyQK22idTd6qOeM0GA67uqB7qT5YpRYB6n8PRi9xRAWgvqboIXkjvN76OmVO3N782FXAM+U65bS/FkHBi/DEepDkvoCrfkJ1Vht3mZkUEZZOtxiWBY5DZSXL8NbDaWpGQeq39Y4pNyJuCUEvlUGlZ9C800LIhCpLLvvp7XbrfkskZF07O2kjhHCMRLTrbDxaQZJYg/56+V/LqTYhlhyuwna/bBzoQBcunVuzvgqnB3W9tv/PDGfMyF0WnKvVqfnIROlW9zZGAbTLVT8rBsX+R0CtSI9ER52WZdz87ofS27EO98rjs4ihxs/oXOsWVH/x2lou5mUz2roEFuEVAs+G/fqOktfTgKdhlNqTgTTjz8TeC503WL6A98fzG3ww2v3WSeDFF6KF1FO3DHPf7AO+DNGnd2JpAxt0KxtwbmPSmwhP7wUvljeseWqvhrv0eI2LGFG9kmptyN20/EUQFmKt5S8pwzlRDKlzAIRfmn5MnPrvCHHrh4kBQLNVS9d134POlLM1ZQstJomcjpSnkYGnPug6JpUgrrFZcFiLSlIFGbWVveHanqDH3LRAPklyHeojcNG5BYP07vOL3RN/jPQW4CfXua7nHTHAWhiqZIsbjbl9wvMv5Orzo2EH1Bbc9ilDagbXylkZVlojHKQv2Y/klSziFA6+SEYvK4ELOluaEX3PD9UAgPCJazEYB6xbEoWfsEs1P3GC/9B9NJ5uQ7BU9BILO3QV/wfcgbQ+sfh2r12CwjAeRmpKkNXO8u/xaIKrNBj3IUaPhGCGhEa0F5usK2xZSLt1gA/mTVgd8vAp78Dak1O125aex6j+3y1YdFoMuoP4JUyqy5vWWiKvWZkUWIhOOcdSbZl7vEjh9B8bTDqy0y4Aj81Tdwsfso0Iga6Tk/gIhhKmzx9V/hJdXZ9tnZ3i3SSHg8t4Qoj/0T21wuXTTK/rH0A3UwlxZieYt+1RqfukH2ktX1rqSrP2LGe2lkniQJ6hDgZLfZ9pedvkai8eKDmxX/QzQV+9Sj6allUqyqIpSSPluqJyimqoZ1lqoUR+kdVbX7N28OZa8+Yt8iMkWSuJnwgn4dPvoktlcJhq/vqHl3hcYRi5eGt025o5er/3A1p4a11Wg3/I0oKDppg3DJGGwzdbcSkidnYKOrUQo9M9bC6LYcaJI7ijwAX09n3LoNes4qKH6kXG0HkS3nRVnRYVXzVpVCv4IKMXlCk
+    properties :
+     x : 13
+     y : 356
+     width : 263
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : DateHeureLecture_Change
+    identifier : 0x2566f0374617c042
+    internal_properties : CAAAAAgAAABkOJBh0k2E/bwTiMMHeHhQ5ZzzFy/rx/tZKOeRvsm+wVpiCWErVXJ9bsyj27bAN+GK30QHA8BeanTNUr02tYnjbBuDSHe/OAn6DQ0D8vRHko+Pm7dO7ZcR00CWxseaL8w0pJEmLA6XzzloHtzx9E1qNmSOuU0MZW34PMTFWhvkn0m+B4c2F43xVIzxbGujfYNuHqvK6lSpKHvK2zVPCBTutFrSlad2b4LMtvPeWTGll+sDjOPZog59ef0EMYnW1dMP+KZoydvDSJy7Pc991Ov9aq/fJXromL7pcRJKvUEsKjVDOFFBogM64R0WyOWgdiGRm2cqFPlbBdWcwNnlIqoGDrsvqiIUppn9KrDP6uEKa3QxT3mh0eCHxs9BhXD4DEnW+OFBds21L+7Eznvff+qxDrbzHfe2M5xSokYMMkogpD4GnOUjjrPHn33SzR/3VNDCovvB4huxpm0SQsXm70hSDb/nBT+CSdWjYaWItMTjzPHwIhccTDEkCiptSn0e1/7Q/hysKMlS6SSAVD+/g9irbpx2UCc3355thn5COkW//Yg6T3CWXb5hMC9piMPVed6ewLsfiBKsSOfNcizg1JQWenmQub6yRGwu9WYQkmcE1//nQS5FdWzSL5cgVNZVF8tuF5kuYNWJZsRgPMtt+me21f3oqiqvKxiZKBMYo/qrtWbC+eVhSie+RvmZY6jpet1l+7ormVq0LYEMyk718LcpSnadyVhBY8NSKK3HvXT7qbFvHm3UvhbzqgcVQWXAMAw5mJVY2dWX9VwGca6den0bnlKTIekqpQSd9m3ZChES7bNHYNfBKOe8XYQmzF5QDJb1nOQSTseDt3Z1PuYf78lUOOWO+NMx8pEAD3NZYHX7ZPrMr7+TEpCKZ2CaR2a3pQnJgPMJr0RuAvxONVSK1pL05KCo2+INWqsOUe8YO7aVrxXuaeeiOS0R6R3yk4Y0d916656kqA6O0Vluc4DPcOgtWCC0XFybqmFCjHqe1f7x5gwnAWT/vQOxBA+KyGk2/JTs0k87YMZe+i6I2Cb8SGaKJSlwZvSXy9Q/sQwP088sxyYKMRFNfAWipk2FZA31fi/4120Bjti3T3dBIHItZmYq40gXVhgx8DNq7sttYo+FjBo6sADWTdTItPviHVkZusStPRRvlWJom/oRRlWlMmKhypMNUX4JJXbD9exMWKq9wQo/UNaVAE+2vwrYAA3cO61H0z5Z9B7zshXX2gYO20iC2ZXCHafX5GJEO/NRNK+GEvoYEBG4G2/JjAWR6vBuQnU925T7qOI0dxOAA5u6Y6tRXFsubJKv/JX4uoiYhoRwoUL8ZxjtGgwpe+Wr/tZ6ONrZreqg4P8K11EQcSLNoJO4R9SmHtzHaOs=
+    properties :
+     x : 13
+     y : 386
+     width : 263
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : Transaction_Change
+    identifier : 0x2566f0374618c042
+    internal_properties : CAAAAAgAAAAPwDiNf+h/go8wqGTwaiBa6ajBmo0K5nZqSOmP08dhoFJgxhK/0ClcfwQs7hhNWBKJpeLmQrLlmvmkB9OpY89z+9zFl6+anev6U238Q2VQT/HhLijJQbD0gSjYWuKFuWv6uhyy8Ab2QfnPiomE+BJR7T337ifzp3lpHSuo26w5+xe0J5ub07pR2cE7KcAdd4i7SFlCR+y/QeTl0fOf9t8xHxmIl4xIrmxkpVB9rQ/HZjNEdkmO4CuaydHRTbh+1LFdyPdwxEC4qwfvWtJmy2Q9ya2Ct77Z85ANg+IUCP1QcV5+MvvgfWkww25fKLZlSpEqZ8DakiubyJhIczGrEZb2lXGL2VDtN8NAOkTiF8+Qt2A/Nl/QkBaE9KXLku+xu1tgdL+gF2du7R4jDb+Epa7zlkrlrJTngaw/6O5Qo+Eaa5V9MWN+sGNS/1/HmDcLYjmCuM/qkO/etC0LZ6NMiU8vsbNsXCqbXK22T54YkE6EobZ3QZ/318eg5/+Z4qHJRiK5BDJ2XrizswUPYmEh4UFiw/GHu1k5KL8ZGCrhhqfZs/Qc3ym+QokItMfRlobyYcJy6XjH1cxch1HKNWYHl1eQBewXvsNJofWjJG9JtylciFkVm46suVWaYDcCZcC0bZiAFAVL9MG3yADsYYlrCcanJRzQBGsMIbuCOYYOyDJuWunhR6Z7TaO93L9XvOIAFOx/emZPCgBfTcCKjKscE8EqD5Q99++933aKqNPCEbc1JRg/lFVaOxrOHdg68HrwJ2ZCy4fAXVAXuZALgeLjYO2WzJu/PZj3/CwQ3Q/FsqIpLOSnX23DWhXnwmIKvnRvGRr/hWMSFsYiDaUJ61fi7C/cVJkO92QYmdlosj0ch7XMMRP3SDFJuhIGiPSih8hgXYNS6McDT3tjrIqoGmvGvbbMtfPXdrBF6N5OatonWJgGX3rHJpaBEEz86uTckHHtMqo6pYmjTJCzn2nqwy04ouxBz3I33MeOd5tw8/miIiqxzjBy92sbWCXH0iWCdBURWpxDWVnkIRzBBrrfDkZIQYNVB6B7MMID4QFZg7spNEw8FZ4Y1bYYlgezhNA+4mrnDAKFhIqHo2Ur7DaBNn3gMwnTsRP8ZgkofENUcAu9LH8d3b4CR7Y589J5JSurCadxhcOKd8CgU0cfofEI0+myn2RNYSsLJnMQPf1OCaiN8OOKqF09kKFWDYlLzlz3SsEU0NUfneP5guav8z1sRu0hl0wKsna6WSMfFUsw353E9Carf50HJ7v5LvadDfxWijfTfwnwUtlXOWel9ccIqe8yXVul+0LcOROWxeVeu7uQHslty3epW9NePaNMf7X/pQ+xvJoXHQ==
+    properties :
+     x : 13
+     y : 266
+     width : 263
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_FERMER
+    identifier : 0x2566f0374619c042
+    internal_properties : CAAAAAgAAAAWFd0gtvoto3lBDtKT25+iTYLgg+8r28EHGAGqkxJqVlNLHXqGO+znKQT03OtoFGst0etHofhqb6GKVR8lAAb9yGA4Rp5lPHOdHHeF3Mnxh1S3g0wJslB3gbJ+uOiOB0eSlx839vmCPoIcQYWMGi0oLM/a6GYlXa9NwzTk62NLtFvQLGXt4gtKE6MvG5EH0XDoMOhgerY8tkaCvbrZgn8/rWiPeJNciBa5sKrBc/M9YdS+Uwk9grQpM3iJniS8ncxLjzCsD58iJPBmZunMU4Hm/n1NRcW/hylSvV72EmNrwL3pMipSwfVwhYlwHvnFv9xv5Xrw7XcVS1CWS5Qvu2BHQpEpkuzsABTUQcXeZx0T1bfA6feXGCjqHUGMiKDDey+4LKwv7tzy996NRLYGr2lRgazgzvujC+Y4pNYqG8zJHGyTmHC6kbdbhAy9YgS/qVZ8j27nfpJfmCdJCx6K4TkjB6oYDOsfhd7w3ggMMFUNAOIkYawgdLiTu8MbN6/WyH4eoSk73UstICsRGx0ImPxPjOJYjnBooTz+v1UNXp+puDWk+8WC1lMXOwkkn15a5g/GPFqAUNgWNr6i75Tj0++GPGXN36dL12weuL0+hZWXcgGVln632QpX74ENDjgn2vnVTI8mMGx6DyzbmnXreW/YT0y8hpJmyFHchky45chN+G67vwFk37p/0HEPVYCWGElg9dQh+PIIHqb+C8IiqZlGKyWulNdh9UvJ5c5jxtJ3tqI1+F7jkRKqq1h87146fS3QCYk18fB8TvKBjzm7AwcaqiejBTOYDP1jMBTefP4aXGfX35S2mmIVaErq/in8BhzXBudmyG25YF2aBNldtVFNK3NyRtfe3v2Vv95tEdXUf/tQH/mvYHKhhcQz0awynEj9QUVLuG2Mj0H5GzAgToIB+dCdUiiDGRw=
+    properties :
+     x : 278
+     y : 430
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Libellé1
+    identifier : 0x2566f037460bc042
+    internal_properties : CAAAAAgAAADUuk8LtAurq2arveMsV52spdgrlkIGt1LK6HN+fm2TvqxadawJ1cqmwFr1l+Vdgk2H/x2eUyN0gEnLaacCLouKK/v7emr3a3EwqAk8nIi81SzSLn5427F60ztVznH4lRqknNPzJVndGE5JKNs1/7Tcmo9Cz3t2r4xGodtangf52wcaEIgnp82fBLsP/FwslcXWmHWkZq4XR4SEOYvfjvpocTQbIVXlto6K3F6oAJPYBObZ1Exkd7fwil/15NE0mniv5r2teI1xSxuI46GsedxqN3iSeT5NSoTrv1sLMGL8LuUzxnWZ7apY6GfpoG0pz1Bnohy8C7AI5glKsz1J5NxP5s5xo39Q57qpvYjwGUnu1wn7ua0CCj/gAlrFaVL+CsWvJmgzd2AVUJpMtHZcQkzkPbzdid+wd24cmORnmAvT/Y1mWPJ07ehiN1ONI14rKb73K94g9S/tUdXEW091fuZDLMGWt7/9hiCitPmndV4=
+    properties :
+     x : 6
+     y : 6
+     width : 350
+     height : 144
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Libellé2
+    identifier : 0x2566f037460ac042
+    internal_properties : CAAAAAgAAACe12rn2Af7qICv0O2qcD7fuQBxy/6oAryLR7RxcvdAcNC3kbtBg7Z9bN58E4/lnhRS3MimbZQbh9/EOmtKkuReD+n06//4fPf489n9w5mArVYjdJqf5BGGDyJARKrdJ24GpZYSmh3wSbuiH/R62VKNg1OmkF27tL93n8I6Z1CgRcWunv5krRIzanjFhrPECZgNFk95QimWn2ipqrpId0vQItiyRweljX+sQKITBngfcuJ+xwEzcc9gAvficbc9uOEgw9Bmww+bqgf/iRqa/zIR0GPzMsbgMmwosu1MFOEiklH/HVET1regpLnD6/FONdPX8sarBCdzxcbpcQF3WB2CZoDbolaeH7jLHrQUV92XuAAJZIOPu/5VUNWextDdadDP56wlrDQlISNMyv35iTWQzZz5gP23nn/jcpJfaqaYIIBIaYqKLeVad3wNgKHl3bt2kqVhZqvcCMcCLqpWiEgMQ9oKD6jgfwfmO6fYhIOrTiaKm1w=
+    properties :
+     x : 6
+     y : 156
+     width : 350
+     height : 84
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Libellé3
+    identifier : 0x2566f0374609c042
+    internal_properties : CAAAAAgAAAC7IkpQMyPz+ZbEBlHt0Pk/w/ZdTK6xOqAyBONTgL4ZsziFwCb3J5GrZJyLCX3jercNmXUzqJ43kiSYnYCJnM8j15NLBpkJTlrPdzNmr6UNKZsV/4/hcOYd9cueWONmsmdNDIT9i5MZiMOgGnBXEfbYiO9qFw8GZp9vgZcSoSLXo88s/I/xpm7AWROfA3m2LEIumlKTgUoFYbPzdJBpmVqWCrBCvEipgpzI3Ko/TkNQEnlnqR5nrTaKqpM2q093KW4o2GcybsFNjzRZoEfeMXR4Ou7AErn6VuXtglqLDtkAVYFmYq+W0M8hgS/eQhWseTq7n4UdpXG/eKERZN4FMPVn3nOU7CF27x1Ytq8lG8vH0ybk8dlSywaWbXXT2dxnGY0PREtZO8it+vy4i85LpSsn9w0sPPQDTBXxtknOmkzFdsS4Sy+0G4xsZDBfTVLP/ydvcNCAFeUx+F0PPWYT/6GArxqrmYjzcA+iVgVgsfixPaWP61PvS2HGeXXAZZAWrA==
+    properties :
+     x : 6
+     y : 246
+     width : 350
+     height : 171
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Item_Change
+    identifier : 0x2566f037461ac042
+    internal_properties : CAAAAAgAAADxJtFvry2+7eL6KaooJsCbnwfnzEkrYb1ZMcpdsW7KKn+msFbD7KPQlBVDXkM2UXjL2fi9Uuv8/2yiHREYCvWV6psZwz3cA4kGxKr67U3rTrzHWItcLGi4Rh8+P3cfuUzXaXF5N66hffVEg5OjbOBEPEfOLLuddoG51Cz0swBnxv53TVW/PWZcK/yLKI1m7pNCjZP9x8VHN/Z21R9DoA2L7Ss8q4nGR6ToAHJHWwOt95P3YU81Rlsl/53mMcwi6luSG1/byMIu4OEI2px5M48B2GG37rtWB3GTvbh0FsYU45bnVyRAPhsWRF/SA7D3GyOk06BojwuW5K09SNhfSMhcmmAmjPdhRQSXzLjaGoQcWP2joyjYMB4XI0o5yiGT7IkXjWw8nNNE7cF0kISeVIvfklIyzeAgCxW95m5PfzBq1Tbnq/AwTYGlVU8+PoAcfxybdb9ZJ9Vl9Jkr5x1n8NTsa6S9/8mLK4QYVA03XXHpKdGBOc4txVg6T/yNEJl5JYMxKpv+Q9ACQ9+WI84QcdCnGPwEknkEah9fKqAy97EPFN5AGQo0kJt4fTQNoqcHkbB0NG9nsE2WNCKBeHIoAP9k0v0y5GvmBlw9Wq00THu7gOlnqV3yx/N6lcMLdxXswuAkxZJcwrsJOuUwGfMHx2U/63afWhUGayWXdhx5mA0b0SqUQK9sZP/L5Y/guCLHFnx4NQjORsvXViXDslXuW9SjOf6Yah1yQA+PEzDJTLHptNB2mEAuOBiJf9Apl8ulSe4/GnhTWnBeuuOTRZ2JcX3BDTzaZG5pmv/aCd9ZXDTAmv1lLw7mDjTVYdMBjyXC1SRZ0zT07W5iG+WqkR98tIPwiYCd1QrlF21QDLqRkqS3CHOUuvzo3D9n6ZAYlI+mMCwQCoVzA/RcFs46CC54X5zWLuFnlQ9DcrBO2NWD14L3OySSeDA0vwD4LhmAwLFZz06hozICNQv+C4rnYDg6n47qsxF6N+VtFkNSXVvnzRvAkf/xZ9MLTt+woQoJx8TzQJALHSKKtx3WylcLfC/xojq32iJNjoCue8/+YxhXg5zTkdQy+8tXo5rmoUpwb61761PGD5p2ImXfiUsRT+m5alXqn2LtJhiTCJUaILao3pU1n4oL6b/W1jYHxwmlTOHjTV7G3DTdr2jqcarMYNvDlla1mojTYeigS5mcI/rPRr+9d8glsOFWhrktn5QO6kp6ZEAPsK+w4oxCKDPP/8/RQz0zmwNpBJKTL4TvgGQEWhwQxqOutp7iDE1ZwCq5KOZ+lBicTeoLmiWbYo8oPr0wxmE25grOLspUgR/SjPJ2Ptqfj2ANJ9bW2910Mxs=
+    properties :
+     x : 13
+     y : 296
+     width : 263
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2566f037461bc042
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABqSrxfqyyiM+RR+U9ziQXvtCA4NZQu5POtgctIi4Zwdq2GvdwlYemT+mRsnDXmpDlj7mIDC7421Zajrt9D1YkZzV6iTWHQz/fNvGN7XwU85wYzHc9EvuL3wqU2rQ==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure Fen_OPCAsynchrone(gsNomMachine,gsServeurOPC,gsIDItem)
+      
+      // on instancie un serveur Automation
+      gautServeur est un objet Automation CLIENT_OPC_AUTOMATION
+      gpautGroupe est un objet Automation dynamique
+      gpautItem est un objet Automation dynamique
+      
+      
+      constant
+      	// identifiant de transaction en lecture
+      	ID_TRANSACTION_LECTURE = 1
+      	// identifiant de transaction en écriture
+      	ID_TRANSACTION_ECRITURE = 2
+      FIN
+   -
+     code : |1+
+      // on effectue la connexion
+      Connexion()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      // on effectue la déconnexion
+      Deconnexion()
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : OnDataChange
+     internal_properties : CAAAAAgAAAAVZy9AzVGoOHc15W2vwhe7ZQpnctnqZH0moGLLJBWOmh2CbWAzMyoD6F5Uj8F0+npdRh0HOzHNz/S84LzNVD3fufd6z8INDDBHRLLaACinMFAyUH0xWeZQFI68MffB/LJNiuJVbwu0kH4wv7ZgzLD2cnpYIYnxRKtS9tRZGsSA5kSCqnvmYzYzsNbv3R8Km7EqWtVdEpLaWtBWd3RYd5Bp64mNK4IOcNOLYDQH+rSkh1XqBg==
+     procedure_id : 1542184041484042306
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //OnDataChange (<IDTransaction>, <NbItems>, <nTabHandleServeur>, <vTabValeur>, <nTabQualite>, <rTabTimeStamp>)
+      //
+      // Paramètres :
+      // 	IDTransaction : identifiant de la transaction
+      // 	NbItems : nombre d'items concernés
+      // 	nTabHandleServeur : tableau des handles des items concernés
+      // 	vTabValeur : tableaux des valeurs des items concernés
+      // 	nTabQualite : tableaux des qualités de transmission
+      // 	rTabTimeStamp : tableaux des timestamps
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure OnDataChange(IDTransaction,NbItems<utile>,nTabHandleServeur,vTabValeur,nTabQualite,rTabTimeStamp)
+      
+      // numéro de la transaction
+      Transaction_Change = IDTransaction
+      // identifiant de l'item
+      Item_Change = nTabHandleServeur[1]
+      // accès à la valeur de l'item
+      ValeurLecture_Change = vTabValeur[1]
+      // accès à la qualité de la transmission
+      QualitéLecture_change = sGetQualite(nTabQualite[1])
+      // accès au "timestamp" de la lecture
+      dTimeStamp est une dateheure = rTabTimeStamp[1]
+      DateHeureLecture_change = dTimeStamp
+      
+     type : 458752
+   -
+     name : OnAsyncReadComplete
+     internal_properties : CAAAAAgAAADr4YtsEeH9LhqWghXdCpIruQvbuUmiAJzDDGaOdK+Rl1JsV/qflQc75wkohjfJTiODdezsEbviC8AhkknUu96ohVah4tqailt+5O7G3z0+yw+z+v+usjYKaK5wqpfEzi+SouBy/d7FuQrOMevunzJr98xshmu0dejeiHhIEilQDWe+Yvo6ootMOBpBUDstvbbbhoVWVPEn05jC31VeoDT+FBlpNkQrL0LDaOKeYOsoXuZy
+     procedure_id : 1542184041484107842
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //OnAsyncReadComplete (<IDTransaction>, <NbItems>, <nTabHandleServeur>, <vTabValeur>, <nTabQualite>, <rTabTimeStamp>, <nTabErreur>)
+      //
+      // Paramètres :
+      //	IDTransaction : identifiant de la transaction
+      //	NbItems : nombre d'items concernés
+      //	nTabHandleServeur : tableau des handles des items concernés
+      //	vTabValeur : tableaux des valeurs des items concernés
+      //	nTabQualite : tableaux des qualités de transmission
+      //	rTabTimeStamp : tableaux des timestamps
+      //	nTabErreur : tableaux des erreurs de lecture
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure OnAsyncReadComplete(IDTransaction,NbItems<utile>,nTabHandleServeur<utile>,vTabValeur,nTabQualite,rTabTimeStamp,nTabErreur)
+      
+      // si c'est la bonne transaction
+      si IDTransaction = ID_TRANSACTION_LECTURE ALORS
+      	// on traite le cas d'erreur
+      	si nTabErreur[1]<>0 alors
+      		// l'item n'a pas pu être lu
+      		Erreur("Impossible de lire l'item "+gsIDItem+", erreur n°"+nTabErreur[1])
+      		retour
+      	FIN
+      	// accès à la valeur de l'item
+      	ValeurLecture = vTabValeur[1]
+      	// accès à la qualité de la transmission
+      	QualitéLecture = sGetQualite(nTabQualite[1])
+      	// accès au "timestamp" de la lecture
+      	dTimeStamp est une dateheure = rTabTimeStamp[1]
+      	DateHeureLecture = dTimeStamp
+      FIN
+     type : 458752
+   -
+     name : OnAsyncWriteComplete
+     internal_properties : CAAAAAgAAADoMOJhjsbEBnK1VjTsmLsLlXLLWX8aSwA+N2fHY0+LwZgLqs6Og0BNYDgiCyBhrwSn17B25zv0+rPbgNwPSX6Jy4erZACWbyDq6odBI7XaTTN+3uleOC1IBAtjYlNcKCETegmKE2yoKPjNlv3eky7DdhAXSrvAtoEyCaHYyN/XfPoZBO/bJ6c6aXQWh9upIgYhWOSR
+     procedure_id : 1542184041484173378
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //OnAsyncWriteComplete (<IDTransaction>, <NbItems>, <nTabHandleServeur>, <nTabErreur>)
+      //
+      // Paramètres :
+      // 	IDTransaction : identifiant de la transaction
+      // 	NbItems : nombre d'items concernés
+      // 	nTabHandleServeur : tableau des handles des items concernés
+      // 	nTabErreur : tableaux des erreurs de lecture
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure OnAsyncWriteComplete(IDTransaction,NbItems <utile>,nTabHandleServeur<utile>,nTabErreur)
+      
+      // si c'est la bonne transaction
+      si IDTransaction = ID_TRANSACTION_ecriture ALORS
+      	// on traite le cas d'erreur
+      	si nTabErreur[1]<>0 alors
+      		// l'item n'a pas pu être lu
+      		Erreur("Impossible de lire l'item "+gsIDItem+", erreur n°"+nTabErreur[1])
+      		retour
+      	FIN
+      	// accès à la valeur de l'item
+      	EcritureOK = "OK"
+      FIN
+     type : 458752
+   -
+     name : OnServerShutDown
+     procedure_id : 1542184041484238914
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //OnServerShutDown (<sRaison>)
+      //
+      // Paramètres :
+      // 	sRaison : raison de l'extinction du serveur
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure OnServerShutDown(sRaison)
+      
+      // on ouvre une boite pour afficher la raison
+      info("OnServerShutDown : "+sRaison)
+     type : 458752
+   -
+     name : Connexion
+     procedure_id : 1542184041484304450
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //Connexion ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      Procédure Connexion()
+      
+      Sablier(Vrai)
+      
+      // on se connecte au serveur
+      quand exception dans
+      	gautServeur>>Connect((gsServeurOPC),(gsNomMachine))
+      faire
+      	erreur("Impossible de se connecter","Veuillez vérifier les paramètres de connexion")
+      	ferme()
+      fin
+      // on crée le groupe d'accès
+      gpautGroupe = gautServeur>>OPCGroups>>Add(NOM_GROUPE)
+      si gpautGroupe = null alors
+      	// le groupe n'a pas pu être créé
+      	Erreur("Impossible de créer le groupe "+NOM_GROUPE)
+      	retour
+      FIN
+      // création d'un accès à un item
+      gpautItem = gpautGroupe>>OPCItems>>AddItem((gsIDItem),1)
+      si gpautItem = null alors
+      	// l'item n'a pas pu être créé
+      	Erreur("Impossible de créer l'item "+gsIDItem)
+      	retour
+      FIN
+      
+      // branchement des événements sur le serveur
+      AutomationEvénement(OnServerShutDown,gautServeur,GUID_INTERFACE_EVENEMENT_SERVEUR_AUTOMATION,1)
+      
+      // branchement des événements sur les groupes
+      AutomationEvénement(OnGlobalDataChange,gautServeur>>OPCGroups,GUID_INTERFACE_EVENEMENT_GROUPES_AUTOMATION,1)
+      
+      // branchement des événements sur le groupe
+      AutomationEvénement(OnDataChange,gpautGroupe,GUID_INTERFACE_EVENEMENT_GROUPE_AUTOMATION,1)
+      AutomationEvénement(OnAsyncReadComplete,gpautGroupe,GUID_INTERFACE_EVENEMENT_GROUPE_AUTOMATION,2)
+      AutomationEvénement(OnAsyncWriteComplete,gpautGroupe,GUID_INTERFACE_EVENEMENT_GROUPE_AUTOMATION,3)
+      gpautGroupe>>IsSubscribed = vrai
+      gpautGroupe>>IsActive = vrai
+      
+      Sablier(Faux)
+     type : 458752
+   -
+     name : Déconnexion
+     procedure_id : 1542184041484369986
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //Déconnexion ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      Procédure Déconnexion()
+      
+      // on termine l'utilisation du groupe
+      gautServeur>>OPCGroups>>RemoveAll()
+      // on se déconnecte du serveur
+      gautServeur>>Disconnect()
+      
+     type : 458752
+   -
+     name : OnGlobalDataChange
+     procedure_id : 1542184041484435522
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //OnGlobalDataChange ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure OnGlobalDataChange()
+      
+      trace("ok")
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : OPCAsynchrone
+resources :
+ string_res :
+  identifier : 0x1185346b054850fd
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

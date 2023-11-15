@@ -1,0 +1,605 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Fen_OPCSynchrone
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : Fen_OPCSynchrone
+ identifier : 0x2566f0594bd946e7
+ internal_properties : CAAAAAgAAAB9X/FwLizTsGE28MkcwJkahGe9wk+Hbew+5zH1MZzk/NQcZa+U6AehupNrWpI4pmmDN7m+P3ZCJPfUVlx3zQR3rXm4hXaIsackHJkKoAojD1yv3lwZcSwPp/XyK5AM9Oxet8qihmMpDnOVFjs9LdLxYGYyPX5LijBL63YtYIumO2/IJvK6o1c/IoMyuMz99s76K2YidHw8HoXjEKN3EbkM9RKszRvLjJmCWpFjOXlYgfYL608Z1lbWu65J/hNmoj/R6Eou7KeU1emyn6xF9cC1BTkXoxn33Pld7SPljnbBAqLDh+GO7ps5wM0mj4/6RPv2nU+rkcnZZpHfTvkr1FLgUORj9fEEZdsmpPo6Evvzj5j/1ohnCbvWmgaxZFsOM/hO4YTISKlXP+gL6mI6BlYeGJssczAZ9So8ejfXh/QuQwc5vAvfGJ+ZR8G83YrgL18HyvcMHE+5JDEbV+Mzal8xHn+Gyjn678pMzTtqEofnWbFA9i+PQqplTuFwPtZ+rwUR+bKS7IWqJCKro4Ue+QNnj/B+aOZYrHxXi8q8KH2pUH4SuAMD18eO64W4xj7FVuckzYKZ00ISnxwVK1UJ5iBJpGXY1+PQOEPiiE+r23xAg52kQ4/yNefYksMy5GJOXiOnaEtFWc5PvzCCHa8ZjEuO+dxrxGBcrNxzL8DKF719sVkTWGcapFNqm3QSq5vJrkYLLv5uRJv3whj4zyeazl+Bs5ZVzFUy4sRpE6CCFzwNdcnpFpPng/EqhCyaGhHUzslTSoW+cjUqe+dwu5P6+s4fujk343pZ2JDX6fwCZg==
+ properties :
+  width : 688
+  height : 302
+  widthClient : 686
+  heightClient : 270
+ controls :
+  -
+    name : Lecture_direct_dans_un
+    identifier : 0x2566f0594bdd46e7
+    internal_properties : CAAAAAgAAADxSv/PV80tqrZgbleNWxfbTAxZ2Ok+4kST1R0VtBlfqQbNfQ51MsYH0fDKCMfrNOY2uxRwsRwpoP2DrFeq20tvejltwNbkWWhd7sjAju9OCHKlRi98m/+q3OOQCvNllW0FTcpIGypKPm4W17gLolE/6pft9O56BxW6W8/QVqdr+OCRC+nuVKiojZ6EYA3swUarjqqFZahrGdI3Gp2XphRo4gbijVxezwSmD52YCtGS1abPgg+USkPodtZpHXbvqzEE31tCdV61TyMCuzBjMpglBU3KrimyiF2yusLlHJqVSsU+BUgiSS2RF6RedzsgyhQgkvxIc93D7gPde23nLe/AekbWwjGl57uaGW83reGZPwuwKIyxBzTlwWsBd7h9cy0WQ1xBH2o0LlaZNBYysyYISzs4U6WU0RcpcucLUCuwCunZyvowwWY33GcOTVVBkSfppmOlSqZNAe/uWrj1WgIh7tXrWeY3SmQk1HBjSXy5FAFflVKdM7gm55xm6M1VlczoY/2R9YptlnQEqSydsi1ERU7ejz9Ql+uFlGckjuubx5zn13feaXBmoIk6k8AwQA1GwTPdLnU=
+    properties :
+     x : 13
+     y : 23
+     width : 336
+     height : 34
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lire
+    identifier : 0x2566f0594bde46e7
+    internal_properties : CAAAAAgAAAAGQKWfEVnkwBM7r4YAOKKOiNQxgFdVLeGr3n9u0bRxVkMWx/AodTQWHE4k+FPKREdtbvFe9Rs7GNS0xPg9WKWXULUxfUEaoIL5gKgAn929h6o0GYls10+HbGfAuwT8ta5gg/f4cl+B7nGO6VxoslOTVbWHHIi2KhA3pvEuTJ3FrUNkfgu4hF/l4yA1G9fyQG+9eJtnyeMhqryfYCmjszrkGHYPlhM6bIojdGF3RLrGqxt9n7gttpkjx1e7S7fEpGbiF8rEU1cxAvBLFOJ3/kDydBU5yDwRgg4JWGfozHhdl1q4jbrMAoFR9JrgM2AgzBEKJt0jtkOuPVqaSb7O6tBGXNezosFGAN4w7yHp0/FnDMo9IozcerG2bYqQPDvh+gSar9wW/i3Oyls8kFpWdFLScZBdvGToeWb6FWT0zLPkcT9HCQuOEUidim1dUVn0RkT7jJC51oRURlmMn/DXi4ktr3KcKgEQfOQd99yijli4ILZmkF5MuelwW530d0+Q3vaLd2OAgN6doS2aGWpkxzC25ZB3DN+gEffGwm16UQZHOy0Vf0NS2eaP8a7RqVC5W+z39fbDKJxSUb2IqATjisfVla2ea4wKfEPtvOyKkdxhrH1E4a0yQDIQzERBaYHkvzcVciQAdTvzP3TQEBD/5iXFkrgjjtlLgW0a95JlOugCGL6dmLvVwYRrjG+uK0nmFkF2PvRe7VytLoGT/MHw8a+yIrbhH3N+py/Tgt8qjnzVdriS3PCxhaelVpYpt1b4pzSyP896ieWlDkygUdr07dKO/Wg5tlvB5zyOmHnINmlQUN/039MerwkCXyBBcCsjwl9mBFkm/JjW2XFQFeThhPwNAA==
+    properties :
+     x : 355
+     y : 26
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACdV0jDI+l4MlXmY0zQ+55fNadmUL6Ln1cFNK/yDNHJWSdSEKTlHv1ttgXjKiAOg+TFyGhopr4ny1/mhWZ/QT0VnGBplBBZ+UthQ9ctXauneyrQKQjJXCOiUWFiXWYCsiEwyMxaZcrM6O7AYTo=
+        code : |1+
+         //-------------------------------------------------------------------------------------------------
+         // Lecture de l'item
+         //-------------------------------------------------------------------------------------------------
+         
+         // on lit les valeurs de l'item depuis l'automate
+         nCodeErreur est un entier = gpautItem>>Read(2)
+         si nCodeErreur<>0 alors
+         	// l'item n'a pas pu être lu
+         	Erreur("Impossible de créer l'item "+sIDItem+", erreur n°"+nCodeErreur)
+         	retour
+         FIN
+         // accès à la valeur
+         ValeurLecture = gpautItem>>Value
+         // accès à la qualité de la transmission
+         QualitéLecture = sGetQualite(gpautItem>>Quality)
+         // accès au "timestamp" de la lecture
+         dhDate est un dateHeure = gpautItem>>TimeStamp
+         
+         DateHeureLecture = dateverschaine(dhDate..partiedate,"JJ/MM/AAAA") + " " + HeureVersChaîne(dhDate..partieheure,"HH:MM:SS:CC")
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : ValeurLecture
+    identifier : 0x2566f0594bdf46e7
+    internal_properties : CAAAAAgAAAA2pRwrBD3QbYE+wA4MhlAq3NY56mFruLwUrvrH894yz4MN5VIfL68ACs5AuhKthEWy+9GNGPxhV5ZMH1aaZuACzDUS3++DDCcay/eAvSy2JmfzRcYuAFMDurqNK4F0pu2CPloI5LE6s1ng/43JnsCz2vm8wnHRN0MYj3ZVP+qax256GpiwapoYzY5V1EMNX3zom8LUWh0ga+PF+gpm2EtwQ0enrWdUnxUrG2uG3rsOthhAhOIKbEzjbBWZ3S3Y6/DtSOofNODngvDCBz+EX9KmbhbQWijZUrhP8xbTSbBJgPlsItnwRhdMCTIevctz3oS6pv5+adMaF4YXgV5sTAOsbtJ+5t0qdHMTEjNfM5YySJDtLAlBA8Xv/baj9qC5F37ulgFxE6fUdwxPQyzo/4nVVXTNHXAedQmV8CiYIXl5AwV2t4DmuMRjmsoTNhnZDaDjjywFZqxxNeZMPYVk7+inKSvoLsZcM5kn6vkJ3uz0GaQjIIKKlsbCO88d+jTjcYaCmt2BC0DtKCzaVyd0+dHKeBhYuSNicn8j10/ltCpfC1meQhEl3cyhgSYQdiM203HUABnKt5S8J8ylBLLlzELRfmn5MjMr/GFHLh5kBUJNVW8dlz6POtJMldRsNNomsnpSHkaG3DtgqBrUAvpFJcHibekodMb29hcnilpjPxJxoBlFKNcILeNmhLZvM9tuz5RtnpOwuyC/fobbfNRnIQiCSTIMTpaFl6vs3/OL7i0kv/B7UziFrUi7/0m0L21C6lrI9RzFir6Z8IBK8UtE/uzEbK+07q2p2k+kIgNgpXL+vOr7ztSKxJsYwBmGKT9vxoadW1gHA3qO5J1AjzJPOHA8RhW/8J0IGQiAaV0Dfu31i1vRv7x22oKnGEFSGB3UiFEqavDMppc3+7TPOOYFoyPiyaXaTbX1yBtYkfjQ0Yj5PS5nYw/+pEjdsrfEWfyxn8J0p0gar8zXeTzyNosUPWjqzKfzLqMZ7GGFP+QmFIe7KWfPRWdZ7eBhq2F3Tsui8IPijnd4bZN6oBkn56agkpMe6C2XshKMuKMsyR4HAE0SPGFnswubWjN8Yh/KTffnNTTp8GFe5LH/00AIGjgTeSIPN3OboQq8eKKkI/28023OQ4ZaEukuszKSc1KdJnQl9mtMTelRiIGVAJkn/w5/b3dD5UcQ37q8sXak3Eq8FTcnlP+bC1zbMYV07Iu3MaKmYU8Lr6qICNpnoqDsTzLuda+qTPnh++EaehoJQyTFFSw8IXFwsFJ8mucknehiRZ/yzDYawSI1cztVjusWl1RGKac3G8cSjTk/OEyodaKabpPikdVfqYVx
+    properties :
+     x : 458
+     y : 26
+     width : 215
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : QualitéLecture
+    identifier : 0x2566f0594be046e7
+    internal_properties : CAAAAAgAAABa+Qg/eCPqa4sXwpCiCjROXmIzVtGTziB4QMgjPzicceefVWoJgCBzBSE1ITXQS4yJkOL6H63KKmlPEHDC3I08rWTJHoCBTG8SvCCwsh4MSdr1k6z0uimd8LSjVTf8TtVqZpLwjKhfRHJH4MZWeU8iU3Y3U2YkeJjJbltuxM0RRifTzSHh6R+dfh0aTTxkoh8VhAkBt8ipUGhAywuHF35T1NyuBlxH2DoIzgyDA24NNXHhF2OHJ+1QpbwuTvIbLgtC7BfES/2I+SvRmPovZlHFPcul23caB6d6igMuBNOAV6Ap18Z3j4xPsG1f7fuJJKKONHrQ4cdwK25JB5rQ5plCQmha8AEOQqvbpN1rpy1Q9h5/nku7Ad9V1+zdDDonYWBglJsjfeWGVR79FWIiFSO/L2rvtxI03y+v5iqGU1eT9Rd8ye3rh63gj/n4k45cjN+YfLsif1ceOoe/ygb5Uv9WGlwTE7uzPB4IlQZ+x+P7iBHYw5eLUSu7UH72U+VSkJ17VxBqVAOyTeGZeFDZdOixdQnn7mBBm6ywFoRCzXFOivaPsf5S7C0WOvkt+09ihzUggAHGc/zAN6A9cA6puM4tclmhtv9jOKlzPsro2cYJEes1TypToo50yfyQCM4CZp7+/qZqSEvUiKbkdtaReb0+4ek2YihQTNnlqFyBCXzH9s9rxrUqx/kAuvzJEeWI9Vqj1CH+HcLdIKzxRoLRC25or5jC1AgPjZ2qvYVZSAd6fQ6RIZb/z4Z1rcfG8yv6shAexax1dNZBKvbQw5eSdnzKQn/Uji/BcukKaI2Yj0ai9rRPirhYUK8WgktYYXHjSiAH1+w/JXqO3pN2UXqJ3JxWYDWHYO/4CXo2D0PHJH1dUfFlw9B83o6lEmsktOsc+O+o7twsGifHfzBLuE6pA0uGbcF2zUkd8D+kXcgAPTBRgZJDb3/qHMBZPgOEmdgZ9x7Q8yz6GzyHqtUbu+RXMDdpHe5ys+Icee5WkF1XT5ruLAjqeIAMHKGi4Nb4tRZTuW4v04R/YIzxFcLQ7Fl3d7xBjcrc4U01/3S9untif4qn254k6AnPbLGIfhvSZy/5Gwjd7m9A9IfZK6BoItr7a3ALI+Udc/pC8grcO7Wa9yuQux5wIMNOUWSyUyK9IHwn9Gd4d5t3NHOTbDUzmyi3IcUP0bWGaSoiG94U7GLacdU5NG+LKwzbUZV07ItLpepCxZ/rj/oEa2aDWo/bO2HbgiUl+Sae5hTAyBtlatP+RjMvpuTbM8cZZZxL/BcZZvDZn+tB9teYDKCwabZBXidvOpR8/qxfwPZc2/vT0OeiapvajdFTlald
+    properties :
+     x : 458
+     y : 56
+     width : 215
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : DateHeureLecture
+    identifier : 0x2566f0594be146e7
+    internal_properties : CAAAAAgAAADM+dmeS5r4VsSXCCBvHFQJjiuRI+RVZ3Ufm6/SbmLvnvYeKlfjqvcsEj5hsjPQnwNvaWAppYch3ijO7h0+8iAFQIflXOyizmEX2TqMzGDRl0RPuLPXhQQhnbRsGIUF8sEhCmmekazb4/+YnoizYnE7di7oU2/6cb4AtBqncqFoxBUx55R/I7+Krgq6V7f1pmXfl8ZNzgrYzVmfBXi6MF/7oWLSMjerIRZTkyUSiX3eXP0GInj/o8N9CUvDWkmYs2rX6jK4jGVZ0U+W6rDCUiXFCv/qgrgLZDlbttomJX50sxKKVRJmt5U34tXXpgXpt3sh6JGHXgHQzTESxGhSupFzcV/P51gD9mZ5k0VszCG0QIM9jQ0FoMiAxV4MjCY4RRFZP4AiRFxl4ekg7iy7ukytxfaHa9Gtsz97+SPaXeJa9d0oBVCQYddwF9A4Bs263KeL/99jco5MX4Fh6bEHBW7cxTJ8+50W4rfbbBUFX+kR1qT6C3kJW3vVgsMFjJ74CzihJlxjqWv43xzBa0X1kaN6s0QIddmzFGigg61S0M7pxZQ/mwfSyKop3hKYsOO42c+Zzj2kOZe2Nl3rZr1oAWZnbd8HZkju0VF7FoJfAvA0Rk96GUyyiZnerM/r5TKQpoCwtCVfMv+e5cvRYvGQseZ2EkU5VfCKo3MarQDaOvZl5hzMaunwSbBzaIpotqGybjck4bw/GwQwJ5bsmcFQ4dsJcmsNLA4xWNjQSmIucwMVq9Pp7FYIU2lnEEk+/SxStzUIn87r8S5XGrVQ2lP18L4ZMARjZ0q9vJuCkkiunDYSKxF6LJxS+8gBVk9+U6i/CniCef8OfpZyb1br54iVsxPBH4wSByVWUPGdAYAaiJilIsIZs5jLTszgWOC3RL8WQfltR6n6W5QmGrTapSj4NgUEsagRYbiN3XkyVOJfGlZYhWCOdWavSJkj7HAByJCjkbSlKkA7TQSyU/mEEhPEwFLwfIgpzXg5+Ge2j2rJhY7oozXeguW86gItiiDdyWVthP3dbe5JTDytQizO5qnHsP2GD6kTbQ3mHHUHmV/SelPUrjysNMuu2xXsKkndorJqYNTmpMtu1pdQ9wOY01IA49fzlcH7RBPGs5ZwyBsRC5gsRx8Lq9UejKaJVAXQ7AzwrzTg1N6J5Y8kaTVxmzChrWZUe65caSEKiHy2re8hneB8AemvSpAQKx8StxrpaOS2OeWoO0mlSlTIoQfxivFMK1Z2S3CaEs6Bl5i6Ty5DwtL1Vwqc4bJ+btresvxKZE4sa1K9C00ezpq4jnz+bXnf6DZtvQ1uDleBwa1bBZXWifLjEWyZQ4t3Ph90EwnA3I9yTRhaquUwtipo8y0loHDVD6mWW3qAAUNel6Zc
+    properties :
+     x : 458
+     y : 86
+     width : 215
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : Lecture_direct_dans_un1
+    identifier : 0x2566f0594be246e7
+    internal_properties : CAAAAAgAAACv8WZConCm67Jqwis/psUxOcUn+BTsUaQdIrSHGWjucpBitVnr/pvwo6TMxCWiCwiA7nGkvQgC3LlptdW3WTSqTFDbGGgP49jevzy6JpeC/+dO3aetVDNRHUijR1nd3JGnTzH9HA2qu++dFCo4EPcNnAmTIlceSOTkJ4uCsrMKqOhVeJkJLxH4m9lIUwPZkDPl+OpWjcK0y/Fcf+d62mQ9I8djpIFqKFbnnqiN9MqfXjviTzI/eEHloScR8Yr48djvX9+MZpmRrRWsafD5uv9YIfL89BY67CTBTtTSppMTS/2u7KWffDBEckgwpvE4jAendSBZnlCpj26yprLX4+GawFvTk8PFyxoX/cYSDNdq78RDKMxOapCd9w/ASx2UivuHNM607WCJO0w42sauIIwArqj8jboO2h3zIvbSTc/sVgrqFckRj6RUSZeV9DX1V3m6DmtZN9SIjnDQOlRcytALPZBYjNspfionZmpcufefm+ravKEYNFrlYHRCfKaiLuqTI3JHlzfdgFWlOZlniX+L4JYMdMADe21l9XtLa3ye3lqe
+    properties :
+     x : 13
+     y : 56
+     width : 336
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lire1
+    identifier : 0x2566f0594be346e7
+    internal_properties : CAAAAAgAAACo+g9Jw2vWZhW5gGwIDqwCiKjjZNcrEXdTfI0AxY7jQrtuJTDxtf5OSIRgSNdi+BeRJklW8fOv5ABwALjxEMkv3M15lWVClD5Cx+OPnJqCwj8LOkqV+mIiAboz1rU56p3rUyerSo3tuxG6jTZo9GixldQ3O2oOhJoyIiTsJk3wt2N1Bm+0s2d6sSziLf2FdyHdu7NjOzDHAn4Vni0CMOjQLR7+OAPfEtST2RZGpfsD2XP+aTW/oLDQAg+ELnWpa6BquaC8Sy+sVaAXhcDDzELcuINQGmWlUDQ9FeN+2WNgOUS2dZ1s3e3bITEARDpbL4cIcuyXPLuM5wBwSbAbradzTeY972x9ywC/2WEHE3EDezTQUjqSJpbm2KqbDwBakY/XTLcDI5RhyXjLXNrpmLHGoY12UgNBU3XqV64GgjqYyEGGQgmIJwo7GlLi1S6NSosYKZL5DYff0ppMaBA4Dfx/yQHgUZHOmF+3OpMa5fy7M3qSM94xbyx6cZz/cqkzdf7YZfhUX4kGkFbjHhcpBlxgh5KAoKW/sBvzwdRMbZN4AmiuuYZE/2pqWE0IFHSfAkd6jA3es2GyO3F1cM6TpLlzqQkJt053qDlE4oH1zN7HXTDp3fS8j7ZViyHEyfMOlAxlIFZ9K6N3xyS+ZmtkPzS5Sp6GZqE7vgAh+1OQsgsuJDmDNEzXetH5vvYetOeQNQZMLw3+NjY0Ml7wmOQalwIgKBbRqeXcoR/lSl+8COgJEhp+MBZX70lJDOC7eQA2eTaoiYE8y6tjTPpSW0wW0xxgKxprqF3XFWT2MAnPL+KJP/4p9MxX1mb7gk2+4VSIt2IdsR7/bWesL7vqv6qvVqK3qg==
+    properties :
+     x : 355
+     y : 56
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAADDtdWtS2ROVhFq52jMxyY/0QuOzEY3JwuJsCtG6PUpqXv2uDjlgtVhErnvtmxSKzzhHPi0xtoJLX2kB7i1u1f7krrrfl5Day0HeeFvkxU5Sdiyi6LnBh2c148UT3SUJNcmcmYcW/JVmzsOP2Q=
+        code : |1+
+         //-------------------------------------------------------------------------------------------------
+         // Lecture de l'item
+         //-------------------------------------------------------------------------------------------------
+         
+         vValeur est un variant = "XXX"
+         nQualite est un entier
+         dhTimeStamp est une dateheure
+         
+         // on lit les valeurs de l'item depuis l'automate
+         nCodeErreur est un entier = gpautItem>>Read(2,vValeur,nQualite,dhTimeStamp)
+         si nCodeErreur<>0 alors
+         	// l'item n'a pas pu être lu
+         	Erreur("Impossible de créer l'item "+sIDItem+", erreur n°"+nCodeErreur)
+         	retour
+         FIN
+         
+         // accès à la valeur de l'item
+         ValeurLecture = vValeur
+         // accès à la qualité de la transmission
+         QualitéLecture = sGetQualite(nQualite)
+         // accès au timestamp de la lecture
+         DateHeureLecture = dateverschaine(dhTimeStamp..partiedate,"JJ/MM/AAAA") + " " + HeureVersChaîne(dhTimeStamp..partieheure,"HH:MM:SS:CC")
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Lecture_direct_dans_un2
+    identifier : 0x2566f0594be446e7
+    internal_properties : CAAAAAgAAACyJyng8iX2ctrv3I9PgBCm8vJz/dTcBCzkhh5zYQ7vwWyNC1/AG6Ez6SOofPZcRtlGjYXl7CL021lnIfB9qOM7KdJHRbmP+bJsxv903sEf/vQS4XDQPr6CMQR7SY8oNtBVsIzhcEU1QHVvvb6b85P6rGVK/j+qL9MOYGVGWqrZ0+nIKuig0kwDC75V7EeGKU5BCw8QGAOxZEcUdnHgFvh+N5w/W4gozwXpyod53B27BOOFeqsQMHQmamC2e5odKUkXPuvt0Y/BNMljU+u7CqaFaBecQ9cVZEaogiAX6TzQYvn3uNhsk0a0gUZaNTrLYSYZvCgUD/t7UxFcXhMwzgTDMoxLzGBMs4DCIUJpl1BzGh4oxOEHpfTTQp+06Nq7XaS5hcpHIAH1OUsszIVH2zvF6ilSBCtBGnuOns7p0DiD+1bqOg9LWbCGw/J0wL5GHsYlKhYNFzrySeiKnbAkXrQQ3DcD0J92Jet0YCl4QqySyq/sQvDUoN28P5S8FaFRbd7n0h8o
+    properties :
+     x : 13
+     y : 86
+     width : 336
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lire2
+    identifier : 0x2566f0594be546e7
+    internal_properties : CAAAAAgAAAA75/QvhpivDxM01LxhdzpQoFGgmlVUmLb65LLkzB8dXoT4p8r3XpfeWX8nlyE43T1XTcYYdd29xr2PTOdZIsc7LPyTsUCcPdYkbjtoS7P/CHQat7mpIQ/OFUHePFcr1dG7xApU+tv+MPAXgrL5lg1ynt9wc+wqK/5NdgT1vtnz7pz67Vij3rY2hE0oyFlAuZ/w/rn0aimQ408eWNbpK6zqZFLSdtyYjuTHbKqCt+5QLA229hnVxgBzstWeeQ8Olq9hmttjpj0kd/S6xtrERj870eS7NmlNDiqLd+45FYkDlswJ0I4t8j9RwksacemacuqqehqLj83ErpsMDWqyFtDCfqKIe9VhFzdS2NqpKM4JfP8Xj6lf4fAbbmr3ff/Uf8kZdoYeFmBqPyKP1CEBALajPGYdQwT1kQLdlaiHGKREadvRSiLGxdrI2xp5lDnPqg5AF8K2MlymS76TBT/7ogGfaP/0/8c+MDvW30dHS6Gq/B3Udo8QNPHKyXgMOvuHJhugPlNdFUlQNEqqAoj/aKiySnaXHKJu0NYhbWdzmpaQiHdqzOwcxIvEbKXGsM4UmrKyoUkx8R/Ed/mIBs6gsin/VswKgSEQyTVmUplf5ywlM/nfLB/QOKJyrBMxW+fQRvJG9V83ooEP8LEOp4U5C/7dizaznyuu1BAx3sSASDVOspvqxMxfnDsVv26aOigrNXULI07H67KBf5be992La9BqU46Z6do2nml0YUwtyyOzDU8hKEHnSR/aXYWhwnTe6VBmY/sD1ZS2oZuDwY/suOYUZbHpj2UupD6wmDA5Ykpuxb3cXsVJ76fBmBcRmoh7Cl5MIkEqH+b1IV+kqvH1Y/X0FiI=
+    properties :
+     x : 355
+     y : 86
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACDdVrBJT6qhs8cj4rkL8DJoz18DIjNU/sfUvOAWIWvfwFsLlhDYNF9uHNzREjmrT53Wuog4LTqDBb1oBUoqFYspVnsE60EgOB85lr03qqQYoMx8MviQw6PWACF3N+5DzwNXd+pylfO6uzOfyQ=
+        code : |1+
+         //-------------------------------------------------------------------------------------------------
+         // Lecture de l'item par le groupe
+         //-------------------------------------------------------------------------------------------------
+         
+         // on récupère le handle de l'item
+         tabHandleServeur est un tableau de 1 entier
+         tabHandleServeur[1] = gpautItem>>ServerHandle
+         // on prépare les valeurs à lire
+         tabValeur est un tableau de 0 variant
+         // on prépare le tableau pour les compte-rendus d'erreur
+         tabErreur est un tableau de 0 entier
+         
+         // on effectue l'opération de lecture
+         gpautGroupe>>SyncRead(2,1,(tabHandleServeur),tabValeur,tabErreur)
+         si tabErreur[1]<>0 alors
+         	// l'item n'a pas pu être lu
+         	Erreur("Impossible de lire l'item "+sIDItem+", erreur n°"+tabErreur[1])
+         	retour
+         FIN
+         
+         // accès à la valeur de l'item
+         ValeurLecture = tabValeur[1]
+         // accès à la qualité de la transmission
+         QualitéLecture = "<non disponible>"
+         // accès au "timestamp" de la lecture
+         DateHeureLecture = "<non disponible>"
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : ValeurEcriture
+    identifier : 0x2566f0594be646e7
+    internal_properties : CAAAAAgAAACBsrBfweqpUFnRfSgYH4pq8fKk9pjaarW09aWrAANDVfNaQ3jjT+DYG+gkC2UYKtXna3c80WuHYzlgLueyVoQtgXuBhuQC2kKbpsFDVzRJxzOLcQIU4l7bZEqVkUH6X7tXxV8Yp+7J550EhDbtQv1Q+p5bErYoOIZRgQwzvjcm2aFj4sYJkXmOPJ9ylSot5tll+dsW7/zLofugoT2EDIFqUptgNLP/KFN64f13Lck/YZs8rPwdL3wtnaJPrGlENhvTivYxGtWGD02Ea3TfBspQ3KfyD6iqg/V54cET5LCX8IpJgA/Xt7u1OxUN2C6geAnNfZOrSo51i3P8emEieWe0AiGEvq8SOys/2yrk2KE+MUZmDVMNperVbANtF3wQjjtvtSeWD0m48b290Hr88yyVmyvUrTDDV6SAD3p6PbnRd4gF2UI3vRUFU+W1saygAmp77anINOcRXIzN0Me+8EtJUytbc8iEJLdKxeGFSqaiYGkLc4qFyWMd4boS9NvxPsnTukkBW89n71mZiTRlj0FvuwCCVaPg1zLL3K1oVwovO8OcO1C7hqb+yj6tW3u1hJEZHdBR1y4rWPYIDVx1oGVPwImvA9ZnurIYLc9x28SR6nZgXSe3chdfhg+6rC3NAyBfV2G+9qOYnptrI5QR76rxKPfZ8QjGYiZP4/c5frES7drEdoWryWhSdiSm5/jiKJikx3MSJS4bJqZVs64n7kaTqzLjnb/q+8oN+p6P1OOCd9IjXPT5AZfSB530ITJookPZv251cuMXGCVVGgDGBL1naGvNez9Mk+A8dbVeZefIjXxIQYDaQNOZnRUOim6131zyEnOqizEbKeSQDei0sFngEAMCA2qagpEBFo+CzYKhR9U73+FVbQO9eJ6lLaA+7++hiIPKZtL4J5MDOQtuFdgwSMzlOBpEz7eWpMRM4B2XUQITlSfFs5sT02cK6vF8snsh0IJKwVMbPOxVwyuSgtl6xoRHjc0PccW0Q+8pXpp337DwhoLrrJyeaDgT51qqSOmx6stlcx66vK5ufuGVPpw8xJ91WqCZCuP/gKd9zb6SboB0EC9421A+hNUxiv/dPrCjpkLMPMci+hmjiiaDtIlD0e5qJXu2XT5HsVu2dyCGxMhUn6TC+qxfPXgs47kDWp6nX11dRXo9NJg2PiF3DmtGEhZbfH1H6KJZiHhFdZiPPdgahUxJLC2Pse2yGJtFxXy1J4gLIJYWFUUVF6tDdbZmzEZdgpcpvMx5vfLjacuMdp7LIcHtT/G/+egImP4FvdMVQkTvh2lk4ph7+E1DrIAvYTmobTmv3C4U4ZAzX2vDTP7GPuJUR7lXg5UzcacF4CyJjw==
+    properties :
+     x : 13
+     y : 173
+     width : 227
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : Lecture_direct_dans_un3
+    identifier : 0x2566f0594be846e7
+    internal_properties : CAAAAAgAAAByhEi/8O0KMLZlFVOaKDeAnQS0iuhobQRfmw1jKwSiJojzkj45CpkRHob8OpF3tPPED+RFdcqYN6wZ2XQPrVLxmKGcr9i1suswlBoZPftEB93ET1N9M+0gRPMxsdZ1Fnm/I57fasknLJ/iEYSrSfto18Z4MjKnl7OrKHR72M2dmXFGCxYeP1fmi4fSsuqwQqlb2NL/BAAhsJ7ycSQKHnNIhL0EbXamhhKcVEYQlxchENhaVB/SC8W8Xq4CDo1CvqccVekppvQKiWNYk8XWl4Lnm0Ou3RyJxHwEL593zOUUxzf/ghsVl8BPnEhIN6wamUfdsUi4/EYLf51iXdts1cB4tBe38D/fqnJu4L9dFWB2JPw6/xvyaQi/XmrMnt8tvxe8lJ87bBKfz6RJPyeZJVibIY1ipHErRLBz1EHTcfgOjVFD8kUOSKhmWecSvbkylJOir5IZ7eAzU4TnasMgN4Lx3tItpJohXhhm2aZfVjrOVhUj5hUorggNaVfHE73bUGbYTvRHbBxn
+    properties :
+     x : 264
+     y : 173
+     width : 156
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Ecrire
+    identifier : 0x2566f0594be946e7
+    internal_properties : CAAAAAgAAAAz69hc9c7NhOFlRb3cklS73nM79dCn/a6Oh0jpHwUdnr6xpg/lLP32MgbNtxyh3onjjqi8829ya3dL1A3Xqgx7PFOZStZjVIuapH7PcbI0PoSoYqC73xc7MlJ/kodsx5789tCnzHjiNTBE6WA5ntew4IJL02XqA43SJPy9Tjf6lmA+esLtW33U/7i+8MgYO2zI5lRNFne4yMudgecfrcWRKCl0h0circco5/XByqOEOGsFEvBGU8c9YTHoSx6U3S4SuEv/HniVwT72EcnlYWWI+3zDZLic1Og6/H2xbilSt0MK8zt4V8rhmS4B8IubZ4ocf6+dxDUEbdAz1DDywrONrXodeRdqcdHZlZLqeAuC7psM2GGJ1TR4gEG084jP4FFiFjn7QWDl26/kDBZc54+H5lG4/mZEC4W2yK6jRqvl42ktzJcOLPH9J5471ExJf2s2C2MtEJmzhJrGGib3sa3PbR8Xu2V89nnffwn5NuTlTY5lz/9yFoQzf5JImRHi5/iL9uMN2uNyY7BLk5Z4EpH2c3HraLzccbmCJ238/71rutq3ZNhm9btEciA5mpS8v2lzzWfbprcfVmANy2rJp4vZVQhlo8NJw7JQfCc3Urcm4hTYz7Fxw/ssEqRAK2VUPD49gzZTxEiFVtKbMWY+58vRIIOA5uoul2MG3cqKKzcDwbxTIW9ULTMVToJ+XiVqT6Gcq3WHWrLldVXdHaMJsWiazniuRacA5Ds2UJEK4N6LqsGZdc0O1Zen7nTl59bt0ermMRnm4p2f/3/m8F9ZbQs4ktBC/qzuJWB8SvtporTcP/crj+Mg7qDElKasFOdJ3VV6rai0K2dX2XYlgPyjKOqv2s04C26t2hs=
+    properties :
+     x : 425
+     y : 173
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         //-------------------------------------------------------------------------------------------------
+         // Écriture de l'item
+         //-------------------------------------------------------------------------------------------------
+         
+         tabValeur est un tableau de 1 variant
+         tabValeur[1] = ValeurEcriture
+         
+         // on lit les valeurs de l'item depuis l'automate
+         nCodeErreur est un entier = gpautItem>>Write(vGetValeurSelonType(tabValeur, gpautItem>>CanonicalDataType))
+         si nCodeErreur<>0 alors
+         	// l'item n'a pas pu être écrit
+         	Erreur("Impossible d'écrire l'item "+sIDItem+", erreur n°"+nCodeErreur)
+         	retour
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Lecture_direct_dans_un4
+    identifier : 0x2566f0594bea46e7
+    internal_properties : CAAAAAgAAAB8hkqx/vtQhrz785uLzi/2OYgOdvhayx7cYBQENTJEElo9/DSv6OcnkApelDuN/D0GoTbNcq+MN4bdkPgN+es29NPmJERGpuH6GsANrYwhAd3+2ujb65lcs9AyJQfcl9YgQUZZnLGX22zZvsAJwnLCKPpjjTDhzNiN5los4qk7hQcyRTYWbD/hmUYZkj8S+473KPA3z27jkMkt2jBCTSj3RlusimXgg0GTrb/D+qt3q/3bvvd+R/rdYW/ii2sUhkMZOu+AFVnLr2SxUkOYPsTCHCA/PK/TMj8xFtsnIK7Q3Z340zM43WDF5th714nzoXGjX8Ej64XjapiGBzWtajawYGUOWz7AHRv5/1GrOM6nneivFVqvl9RgH81p5iOxofEH1sHckPu/iuhozwVkTReoYjqFkIq0tYWFrayAcl3jhCYdSmRvs9EciNQ/yAPwVB9u8myxnRzzj8KtoJX6T45ZfgaJ0I452rL0J0xSxVIjT2zkx94xrR/grIT7oZPd3siySP5Nah5l
+    properties :
+     x : 264
+     y : 203
+     width : 143
+     height : 29
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lecture_direct_dans_un5
+    identifier : 0x2566f0594beb46e7
+    internal_properties : CAAAAAgAAAAWjVBgG2CRt4NoS1gXlblh4Ii4rX5hN6V0BOp6QLmif6fKCofbhr6p+gY8ctGJJU8ORWot1nVjkez1DMDSxj3n4w6U9s2GTqmQpdOQEj5ZK6TveU+mZYTGy5Jn+AY8Z1kL3sRRCLrx71Jbzhr1Xj2qoE3s5dllY4E5sJISCpxGCn9UFPLGy1mEQquqYWaWmnxQPNppL0cUzgAiXE0W5WBGMFVTzDFI+9WaV5ktfxhX5SKxk3p42bde9eUNUYoc297TGvoHnXJDlQD3sbXEZll+jDfjqRfbRD5KIQEYkvixkQtOC46qUtqmALjHLjnALJEM+pUSudBqKUq6dmKoRbnSassdE53O/sZgeFnzApKERWiI6x3whLxCurVY26wbHbzHmm25yP2mDETxDGZUsEVX8PCrEo6YTQh2LLaqWpBaAQg0V2TPfyQ4EHYHVPjt9ldqbPO53FkaCgJ1YJCzm7JUgruhe3IgGeRG9micrhK6MT52IDar8GXE3YICbmUww5y7jp4zM0dOwDTqcsLL9+GwvcI6+mtKanaOqxMZLpJMv47NLT3EEAzgZP1A7ISOc3bUz+PDH2c/Mgazo362ojn6
+    properties :
+     x : 13
+     y : 116
+     width : 336
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Lire3
+    identifier : 0x2566f0594bec46e7
+    internal_properties : CAAAAAgAAACpaAf3Smw7dyvgvFStsqZMaOv4Uo9GXjfylLejBlnvfM76rdjhnNhdMylBtbvKD+st36yW939XtI9xnlWbvLlZ8563tU2yK3iypBn6puSir+DIkbOfJ41QEz+MRoHZywI87DHBomNeBwK3uDCRzl+IZv9anfExW4WU22V5vJTSyqGVN5Gy/YBbNW0jAwA4fuUlPM2Ldot8OYASDJwcUSTpwAKWV4WBjNxuUijFrnaT5ua2wNJ9zIvWwv3oR7lQ6Daz5hnC9KMLgYcGZw40oNsRxjQymA2gx5GBUwgtuHKnlPtDpCY0vXCHzAi8gAeSAqwt0L4iTn+Qxu4+Qk4iZAlhh2TUPySqaXU8hkxLCg2CEJpQa2DxrYiBlhVk0REnVjqKXAmrC7EbUD0yd5dfNSSS8OL2JlSEXPYafWwDHuAGSWowUalFPpGJ9EZ98SPN7RbuT1FtNDRc8DrEd8qDhfV42S/vdQSHyW1JYIa2jg7e9lqgiFhg9P1qJQC4hsT9KCmcmW86BCAh3MxPbxE+1lWF/9YbxhZifyUFtWvYorOr1WKoGmQN2klonEeFAqm3XX7WBL7aVqIrpxvHfZgaeOI4n3lyof1EhTW0htBdpSgC3MYNon6dCilnxQO3Hf42v8eFiFsrGKIOx4I0VXnJ9X80hFzBfDquCRBL0+6e8T/7RS8x19bgFdyL6CidvTRchHbKqgcOgJ3WCkt5bZ9xxXX+gd3NpRKyklnkHYztD+/vOTfXLfdkuY++GfVdzny1FruXe0c3tayepX/DpZsEgB40UflFk30OBJoswOtF1qYCmSWE2kmxh/+NfBM09zOAheMLF2hzvUArY0X2MCP73QOppLA=
+    properties :
+     x : 355
+     y : 116
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACzT1sJQR9ULaskwQ+Y5MIVCqRWDD/VdElhpvSuelVTeZyBQenQ/9UTau2Sx/n4BYxHc/XbsCFmg3iNjdJToxN0w5+HK4IRT3l/cNi5o100a0kGkzHzgYeyE9ylY/l1JD6HKxS+UDFBPKxWdA8i48H1cB+le63wFQksuZPq8xw8Pw==
+        code : |1+
+         //-------------------------------------------------------------------------------------------------
+         // Lecture de l'item par le groupe
+         //-------------------------------------------------------------------------------------------------
+         
+         // on récupère le handle de l'item
+         tabHandleServeur est un tableau de 1 entier
+         tabHandleServeur[1] = gpautItem>>ServerHandle
+         // on prépare les valeurs à lire
+         tabValeur est un tableau de 0 variant
+         // on prépare le tableau pour les compte-rendus d'erreur
+         tabErreur est un tableau de 0 entier
+         // on prépare le tableau pour les qualités de transmission
+         tabQualite est un tableau de 0 entier
+         // on prépare le tableau pour les "timestamps"
+         tabTimeStamp est un tableau de 0 dateheures
+         
+         // on effectue l'opération de lecture
+         gpautGroupe>>SyncRead(2,1,(tabHandleServeur),tabValeur,tabErreur,tabQualite,tabTimeStamp)
+         si tabErreur[1]<>0 alors
+         	// l'item n'a pas pu être lu
+         	Erreur("Impossible de lire l'item "+sIDItem+", erreur n°"+tabErreur[1])
+         	retour
+         FIN
+         
+         // accès à la valeur de l'item
+         ValeurLecture = tabValeur[1]
+         // accès à la qualité de la transmission
+         QualitéLecture = sGetQualite(tabQualite[1])
+         // accès au "timestamp" de la lecture
+         dhDate est un dateHeure = tabTimeStamp[1]
+         DateHeureLecture = dhDate
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_FERMER
+    identifier : 0x2566f0594bed46e7
+    internal_properties : CAAAAAgAAAAPXwrXKJpud0USJa5xjVYGmHLgbanac282s2sIh9jonG/+gGl39rbzquifWwfOYWfo+DO2yN15flSqRdICP/dyunvjtWYhkSEML7nXa8tZtXY7RbN1JDnjdvsxgl2pdZTwIvacryYxn8PRePAJAQCuNmmj6V8tV3k6ws7taIaqDfDFPtnBVHrM9EC4i+YGUqgabHhFygvG66B7D7aFHISxL9W7VDZ+b4UolYEft3Q8gRzjbGgHgNZ1q1JUSN0jpEwGEx6U4VI4mCDL2TCXCO5VEZeroGnCckfiEeMAjLqTqecb9IGVijUgT+9KNWkvXvHVWJnAhKWNjCpsbyLBXtwT5c1hHyfNNZ7zyYP9y6PNgstsRz8InSkuCZ8xMVeiIgv736ltlFbi/6yQDRQgI+11megEaiSrkhrgiCDfGwn1kN7dxjHfASW9Fe1o1HQAA5mSQnkVSt5Re/gkIfQBDmtGPKigYF9U5RWKfl/gdQpZAKpWLtyMCHRXNxphHZBXOSnWUgAmNfcBbi3nvJrOnMhNUTNB5Qy+ocDKpFfHK6CYSc4xFeBPOhR7xOHcmyRB6nZU0qvQBYwC5XhkV6IRNnLZrCz0qhHumMv7TaRfmDo01P74Qoqui/OwnlmyHNWKCzbODCrpbaNseswaimWSzm09Qa3kRqkN9imwcQREHNRlTP8GkfxekzXClqTrzWjxw3TaptgIYJi9Q2Dlj+BKCKRSnrX9gCo26WfSMCaPaBGZkB9/4U/H+sYKshLRvpt8f9f1uWaXVEOksn2tBp4OW2/0H90K0S6bGK1WxpeumOGBJ4Fov1foys/UAge64uPryWf545tlJmP+IVfFkjQuGQCUS37EpmrtJ27RDsxrPYRZoPHLwYJp6N0SU0HRF0TVq3/HMJWmwlFviANcTxgKGY1YiI9PKGdTlA==
+    properties :
+     x : 602
+     y : 243
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         ferme
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Libellé1
+    identifier : 0x2566f0594bdc46e7
+    internal_properties : CAAAAAgAAADS+biAp73fqUGRDfjdd9zurlpgrjVqOY5WmqVlyfaAopFvc4ZTxwDTGhvbZDTe41/fkBIPedZYAvnBtZr8cmtdRcvEZW8s2UbAhSQRbc7dETyigNobn79g0G0TodriUC12nAFjL8CMCXfnUUgnHOIM1122t9Qalo3s2RnVDxlBNOk0zVN000J3RSaLF4uCG7+4n2TFjFlyKr1HbUsAg7xkFGIy9XCPj+R+JyON1WK9xbkTI9bYkNiT2vDOaxi1raG5unlk3unc0YEeDKWcvBzbA9gVyFm6JwZoDWTfCsK8ZVVFmvJL3XVieEp2/D/l41D9si1QTigd42pwAo4N6SFBvHkNvh0F76SZ5e1pPCG4tEXIVLE0X8XGO+ApLg7JZGDRPcDcn7MJLrQByZrui+KhMYmZ3AkaGt+UzRHopN8x8hU+4SArIxlCf8ffLIP7l8aQc30QIF7RiarJ+220Bd7uT3aGa8Egdoptl9StrG09clW/Tw==
+    properties :
+     x : 6
+     y : 6
+     width : 676
+     height : 141
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Libellé2
+    identifier : 0x2566f0594bdb46e7
+    internal_properties : CAAAAAgAAAA88QoCzinpWqDoaJxg6zI6mekmpq7TTlVLyhJxXAw3GH+XNk5vq+AGcrQWkr/LoapgF72+Z0duzvnyd6o04h6txFu7Q0puXUp0bFuQb2DnnAfvRsxhLxckhZux9fijDTMpXVRlVZx9Wcx1KhhLpMxomkJvof1k/me7m8bW61ScAZl6epKYge5PhvTZspfgBYRBUtvdln2Ci/TVjhaz6xPw5pjKRdRz/6WivsQmNIrp3MU/o28ZD6G+wr+P5iLaJ0KJnPRXkuiAkYvvkR6CH3aEu65epfd3MWzYyo30VKkK6jHnPYED1s9wxIGDw7GWbau3+iZbNEeTHd4JaQE3YPvMXoEkqRlCvd59DCg2bu6ka13+BVLetHlm2ck81yBsaKGxQ48/F3Q3AJwyViskkJaAD7VmB0chgUAj44u851vY5Lz3YKLV0h7Ah375hjStUB6DBxvNpaT1hpa99Ji/zcJ67DjLKuT8tGTKf6b/lZKYOT6oub4=
+    properties :
+     x : 6
+     y : 153
+     width : 676
+     height : 84
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Ecrire1
+    identifier : 0x2e16c3f02f8360b5
+    internal_properties : CAAAAAgAAAB4tQDUjBy9GpWnnzo9mNbhdHgVWPsg8n38z+Tl6oa1m4s0j9Pp1xXDHq37u4w/dy9GfSlB/IRWob+MxpVCYfyhwn0HNC3+x9Ixfr4EDF6xGVfkvxuAPpm5AJJmw7ExKJgYfCi4GBSVYOJY9DtEvcCzZiToUC1Cq9wqhXWaAi0/Eyng1eIrc0rBJjfGQjmBLd+OOArRGIUHmU9OHQywNelWOuOWLpoYL4sQ/dTcxwrnpsOhVasKbMlcoLQnl24Yr2FrmAFeUjYfQteBqt4l7i/BydejklQdGqXajg3sHrgigsH6zvd0jOs0cgqx555uTdSUUt5tOk3WE48wppkvKJHThMIT7LzEMO1ZbRT5rPBjbksEzCvvskvsJVFyGRUYe8WGmiAhIsr5ZDUiwdJwnjAmaMhMXanH74t1cfd0nG/6EcGd6nulNLAPxtIClMdKo6Pm+v0SUvU30WpqhsxbRgOv2LNin5JCh0qMS4gD1uo6wEIR3NTpgrVGBmveOrP6mUwIeZUPGZ6WDa3Uz39O6SNWmImpHH5bvCRJA+Jw4fG8duPNqLXR1ItBpraxZcX35NQTql0I58CVhmlqBqUig402rXAda00oyoiKfIzO4FnhK8VtHi3qoTbAsYQmj3Mm088+DVnkIbrjm1N93qEnNJNi+Kt4z64yMkNYuJMKspNCoB+tRvtLW/vGl0dlsPmByjsH2j6o/7MnA6H42f2pyX5KhBxmw7j//mYkwZLI3uD/IHMTCrYsnVokR67gADhNPJlKM/FODu9Fiaai42y4QRrTMqMeJx0RAPwtVS2BStlH8swpjmo7vOsq5Mm8pM6wNj47TKUOK2zzQni9sC9b
+    properties :
+     x : 425
+     y : 203
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //-------------------------------------------------------------------------------------------------
+         // Écriture de l'item
+         //-------------------------------------------------------------------------------------------------
+         
+         // on récupère le handle de l'item
+         nTabHandleServeur est un tableau de 1 entier
+         nTabHandleServeur[1] = gpautItem>>ServerHandle
+         // on prépare les valeurs à écrire
+         vTabValeur est un tableau de 1 Variant
+         vTabValeur[1] = ValeurEcriture
+         // on prépare le tableau pour les compte-rendus d'erreur
+         nTabErreur est un tableau de 0 entier
+         
+         // on effectue l'opération d'écriture
+         gpautGroupe>>SyncWrite(1,nTabHandleServeur,vTabValeur,nTabErreur)
+         SI nTabErreur[1]<>0 ALORS
+         	// l'item n'a pas pu être écrit
+         	Erreur("Impossible d'écrire l'item "+sIDItem+", erreur n°"+nTabErreur[1])
+         	RETOUR
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2566f0594bee46e7
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACZAXEgh2RYtdEYZDbwkVWgcgwqFneiyWCIz5WpdSOB4cKDW9zYU8NEihV2V8ygPax1qolZT7kvyANkdg5rVZN5rs2Ayi+YYqTRTAeGMZal6R1tOAr/uOnA+GWH2Qms
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACXiHbz5sxAgg5oBw263mrRnl5QmeWZ2tcO8dL8nvaYYNJAxuxYRbm37sT8zEv+32HGTo1rg0gLMk+wPSg2esA=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      Procedure Fen_OPCSynchrone(sNomMachine,sServeurOPC,sIDItem)
+      
+      // on instancie un serveur Automation
+      gautServeur est un objet Automation CLIENT_OPC_AUTOMATION
+      gpautGroupe est un objet Automation dynamique
+      gpautItem est un objet Automation dynamique
+   -
+     code : |1+
+      // on effectue la connexion
+      Connexion()
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      // on effectue la déconnexion
+      Deconnexion()
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : Connexion
+     procedure_id : 1542184187514210023
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //Connexion ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure Connexion()
+      
+      Sablier(Vrai)
+      quand exception dans
+      	// on se connecte au serveur
+      	gautServeur>>Connect((sServeurOPC),(sNomMachine))
+      faire
+      	erreur("Impossible de se connecter","Veuillez vérifier les paramètres de connexion")
+      	ferme()
+      fin
+      // on crée le groupe d'accès
+      gpautGroupe = gautServeur>>OPCGroups>>Add(NOM_GROUPE)
+      si gpautGroupe = null alors
+      	// le groupe n'a pas pu être créé
+      	Erreur("Impossible de créer le groupe "+NOM_GROUPE)
+      	retour
+      FIN
+      // création d'un accès à un item simple
+      gpautItem = gpautGroupe>>OPCItems>>AddItem((sIDItem),1)
+      si gpautItem = null alors
+      	// l'item n'a pas pu être créé
+      	Erreur("Impossible de créer l'item "+sIDItem)
+      	retour
+      FIN
+      
+      Sablier(Faux)
+      
+     type : 458752
+   -
+     name : Déconnexion
+     procedure_id : 1542184187514275559
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //Déconnexion ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      Procédure Déconnexion()
+      
+      // on termine l'utilisation du groupe
+      gautServeur>>OPCGroups>>RemoveAll()
+      // on se déconnecte du serveur
+      gautServeur>>Disconnect()
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : OPCSynchrone
+resources :
+ string_res :
+  identifier : 0x1185346b054450af
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,186 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Procedures globales de WD OPC
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x11e6914300499e71
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABPOo5wfzL5PtlmH9g6pVlcqG1md+uM4GM8B/k/aVja5R6ZseBzxTGWZbo12UeE8bWym5Rl91AKrNq9wTYnFyamg2lAMw==
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      CONSTANT
+      	VT_EMPTY	= 0
+      	VT_NULL	= 1
+      	VT_I2	= 2 //
+      	VT_I4	= 3 //
+      	VT_R4	= 4 //
+      	VT_R8	= 5 //
+      	VT_CY	= 6
+      	VT_DATE	= 7
+      	VT_BSTR	= 8
+      	VT_DISPATCH	= 9
+      	VT_ERROR	= 10
+      	VT_BOOL	= 11
+      	VT_VARIANT	= 12
+      	VT_UNKNOWN	= 13
+      	VT_DECIMAL	= 14
+      	VT_I1	= 16
+      	VT_UI1	= 17
+      	VT_UI2	= 18 //
+      	VT_UI4	= 19 //
+      	VT_I8	= 20
+      	VT_UI8	= 21
+      	VT_INT	= 22
+      	VT_UINT	= 23
+      	VT_VOID	= 24
+      	VT_HRESULT	= 25
+      	VT_PTR	= 26
+      	VT_SAFEARRAY	= 27
+      	VT_CARRAY	= 28
+      	VT_USERDEFINED	= 29
+      	VT_LPSTR	= 30
+      	VT_LPWSTR	= 31
+      	VT_RECORD	= 36
+      	VT_INT_PTR	= 37
+      	VT_UINT_PTR	= 38
+      	VT_FILETIME	= 64
+      	VT_BLOB	= 65
+      	VT_STREAM	= 66
+      	VT_STORAGE	= 67
+      	VT_STREAMED_OBJECT	= 68
+      	VT_STORED_OBJECT	= 69
+      	VT_BLOB_OBJECT	= 70
+      	VT_CF	= 71
+      	VT_CLSID	= 72
+      	VT_VERSIONED_STREAM	= 73
+      	VT_BSTR_BLOB	= 0xfff
+      	VT_VECTOR	= 0x1000
+      	VT_ARRAY	= 0x2000
+      	VT_BYREF	= 0x4000
+      	VT_RESERVED	= 0x8000
+      	VT_ILLEGAL	= 0xffff
+      	VT_ILLEGALMASKED	= 0xfff
+      	VT_TYPEMASK	= 0xfff
+      FIN
+     type : 720896
+  procedures :
+   -
+     name : sGetQualité
+     procedure_id : 1289878060241952369
+     type_code : 15
+     code : |1+
+      // Syntaxe :
+      //[ <Résultat> = ] sGetQualité (<nQualité>)
+      //
+      // Paramètres :
+      // 	nQualité : valeur de qualité OPC
+      // Valeur de retour :
+      // 	chaîne : qualité en clair
+      
+      Procédure sGetQualité(nQualité)
+      
+      selon(nQualité)
+      	Case 0 :	renvoyer "BAD"
+      	Case 64 :	renvoyer "UNCERTAIN"
+      	Case 192 :	renvoyer "GOOD"
+      	Case 8 :	renvoyer "NOT_CONNECTED"
+      	Case 13 :	renvoyer "DEVICE_FAILURE"
+      	Case 16 :	renvoyer "SENSOR_FAILURE"
+      	Case 20	:	renvoyer "LAST_KNOWN"
+      	Case 24 :	renvoyer "COMM_FAILURE"
+      	Case 28 :	renvoyer "OUT_OF_SERVICE"
+      	Case 132 :	renvoyer "LAST_USABLE"
+      	Case 144 :	renvoyer "SENSOR_CAL"
+      	Case 148 :	renvoyer "EGU_EXCEEDED"
+      	Case 152 :	renvoyer "SUB_NORMAL"
+      	Case 216 :	renvoyer "LOCAL_OVERRIDE"
+      FIN
+      
+      renvoyer "UNKNOWN ERROR"
+      
+      
+      
+     type : 458752
+   -
+     name : vGetValeurSelonType
+     procedure_id : 1624923794665448265
+     type_code : 15
+     code : |1+
+      // Résumé : Permet de récupérer des valeurs au bon format
+      // Syntaxe :
+      //[ <Résultat> = ] vGetValeurSelonType (<TabValeurs>, <nType>)
+      //
+      // Paramètres :
+      //	TabValeurs : le tableau des valeurs à récupérer selon leur type
+      //	nType : Le type que l'on souhaite récupérer
+      
+      Procédure vGetValeurSelonType(TabValeurs, nType)
+      
+      nTypeLocal est un entier
+      bEstTableau est un booléen
+      ptabValeurs est un tableau dynamique
+      nDimension est un entier
+      
+      si etbinaire(nType,VT_ARRAY) ALORS
+      	// C'est un tableau
+      	nTypeLocal = nType - VT_ARRAY
+      	bEstTableau = vrai
+      sinon
+      	// Ce n'est pas un tableau
+      	bEstTableau = faux
+      FIN
+      
+      // Selon le type de l'item, on alloue le tableau comme il faut
+      selon nTypeLocal
+      	
+      	cas VT_I2
+      		ptabValeurs = allouer un tableau de dimension(TabValeurs) entier sur 2
+      	cas VT_I4
+      		ptabValeurs = allouer un tableau de Dimension(TabValeurs) entier sur 4
+      	cas VT_R4
+      		ptabValeurs = allouer un tableau de Dimension(TabValeurs) reels sur 4
+      	cas VT_R8
+      		ptabValeurs = allouer un tableau de Dimension(TabValeurs) reels sur 8
+      	cas VT_UI2
+      		ptabValeurs = allouer un tableau de Dimension(TabValeurs) entier sans signe sur 2
+      	cas VT_UI4
+      		ptabValeurs = allouer un tableau de Dimension(TabValeurs) entier sans signe sur 4
+      			
+      	AUTRE CAS
+      		ptabValeurs = allouer un tableau de Dimension(TabValeurs) entier sur 2 // Par défaut c'est un tableau de WORD
+      FIN
+      
+      // Recopie les données dans le tableau au bon format
+      nDimension = Dimension(TabValeurs)
+      POUR i = 1 a nDimension
+      	ptabValeurs[i] = TabValeurs[i]
+      FIN
+      
+      dbgassertion(dimension(ptabValeurs) >= 1)
+      
+      // Si c'est un tableau, on renvoie le tableau complet
+      si bEstTableau = vrai ALORS
+      	renvoyer ptabValeurs
+      sinon
+      	// Sinon on ne renvoie que la première valeur
+      	renvoyer ptabValeurs[1]
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x1185346b0540509f
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

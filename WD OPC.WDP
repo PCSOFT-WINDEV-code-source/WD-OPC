@@ -1,0 +1,159 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD OPC
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD OPC
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD OPC
+    internal_properties : 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
+    configuration_id : 5051550000926174600
+    type : 1
+    generation_name : WD OPC.exe
+    version :
+     version : VI200066F
+     autoincrement_version : false
+    icon_filename : .\SXP13118.ico
+    language : 1
+ elements :
+  identifier : 0x4af449090015369e
+  elements :
+   -
+     name : Fen_OPCSynchroneTab
+     identifier : 0x40a488100001080d
+     internal_properties : CAAAAAgAAADSKAoerZqSTRfnj9lJiGVyXMlb80ub7Kez0F3fpH2fGecrgnyHcSrPOO3XIeEf2803Pw==
+     physical_name : .\Fen_OPCSynchroneTab.wdw
+     type : 2
+   -
+     name : Fen_OPCAsynchroneTab
+     identifier : 0x4566fe780003706c
+     internal_properties : CAAAAAgAAAAsKgQQr9RcD8VpfSt7awdodhVd1dc3wxivqcKqbYQIOMhak2uVYxg9qp8Z568h2c85OQ==
+     physical_name : .\Fen_OPCAsynchroneTab.wdw
+     type : 2
+   -
+     name : Fen_Information
+     identifier : 0x4566fe580000f0ad
+     internal_properties : CAAAAAgAAABxzan9Snc/cHgcpPKy8+jNRyaeRvCYUoWv2ZSg4VDCTqYe6fUemlH0HQL8xEyEfGxU3A==
+     physical_name : .\Fen_Information.wdw
+     type : 2
+   -
+     name : Fen_OPCSynchrone
+     identifier : 0x4566fe6800023141
+     internal_properties : CAAAAAgAAAAkIgwol8xkB92xFUMjRXtc9qkVxWubPLqnHwA8K9ZG0i6seWWtC8BlgqcR77cp0ccxMQ==
+     physical_name : .\Fen_OPCSynchrone.wdw
+     type : 2
+   -
+     name : Fen_OPCAsynchrone
+     identifier : 0x4566fe5f00010b79
+     internal_properties : CAAAAAgAAADeRDbq2YauQQurs209cHlmwJ1/d79HOrSrUj3/lH2XqR+TemSjHd4DbNHLNf3zjwHLSw==
+     physical_name : .\Fen_OPCAsynchrone.wdw
+     type : 2
+   -
+     name : Procedures globales de WD OPC
+     identifier : 0x402cb3000001b5aa
+     internal_properties : CAAAAAgAAABAPrjkw7jwKzHFeTd3u7MkUhHp8bN7zA6vVXrylXwYIJgKw6tpVxQ5Vss1gwP9hXtFzQ==
+     physical_name : .\Procedures globales de WD OPC.wdg
+     type : 7
+   -
+     name : Fen_Principale
+     identifier : 0x402cb33200057783
+     internal_properties : CAAAAAgAAAAbd8PH5KEJEt6+QhwMITKzIQBoMJoqLM+n10riAz7UNJR8Ty/ULO8Sf6QemhrWohb+Bg==
+     physical_name : .\Fen_Principale.wdw
+     type : 2
+  other_elements :
+   -
+     physical_name : .\Description.rtf
+   -
+     physical_name : .\Description.gif
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ wd_style_sheet : ".\\WD OPC.sty\r\n.\\Exemple OPC.sty"
+ code_elements :
+  internal_properties : CAAAAAgAAABVWw+iFsTvU2P8leMpQ3NII9y9mMHrkeirSzVLNvzsFYUglSFH239P9oEbWt8dCyfQwSel/qgKe1mea0u57BoZ
+  type_code : 0
+  p_codes :
+   -
+     code : |1-
+      //-------------------------------------------------------------------------------------------------
+      //--- Déclarations générales au projet
+      //-------------------------------------------------------------------------------------------------
+      
+      CONSTANT 
+      	
+      	// -------------------------------------------------------------
+      	// ATTENTION : Les valeurs de ces constantes doivent être modifiées selon VOTRE serveur OPC
+      	// 				Pour trouver les GUID correspondants, suivez l'aide de WINDEV
+      	// -------------------------------------------------------------
+      	
+      	
+      	// nom de l'objet Automation client OPC
+      //	CLIENT_OPC_AUTOMATION = "OPC.Automation"
+      //	CLIENT_OPC_AUTOMATION = "{28E68F9A-8D75-11D1-8DC3-3C302A000000}"
+      	// GUID des interfaces des événements des objets Automation
+      //	GUID_INTERFACE_EVENEMENT_SERVEUR_AUTOMATION = "{28E68F93-8D75-11D1-8DC3-3C302A000000}"
+      //	GUID_INTERFACE_EVENEMENT_GROUPE_AUTOMATION	= "{28E68F97-8D75-11D1-8DC3-3C302A000000}"
+      //	GUID_INTERFACE_EVENEMENT_GROUPES_AUTOMATION 	= "{28E68F9D-8D75-11D1-8DC3-3C302A000000}"
+      
+      	// nom de l'objet Automation client OPC
+      	CLIENT_OPC_AUTOMATION = "{28E68F9A-8D75-11D1-8DC3-3C302A000000}"
+      	// GUID des interfaces des événements des objets Automation
+      	GUID_INTERFACE_EVENEMENT_SERVEUR_AUTOMATION = "{28E68F93-8D75-11D1-8DC3-3C302A000000}"
+      	GUID_INTERFACE_EVENEMENT_GROUPES_AUTOMATION	= "{28E68F9D-8D75-11D1-8DC3-3C302A000000}"
+      	GUID_INTERFACE_EVENEMENT_GROUPE_AUTOMATION 	= "{28E68F97-8D75-11D1-8DC3-3C302A000000}"
+      
+      
+      	// nom donné au groupe 
+      	NOM_GROUPE = "Groupe"
+      FIN
+      
+      AutomationParamètre(apIndiceBaseTableau,1)
+      
+      
+      // Ouverture de la fenêtre d'information
+      ouvre(Fen_Information)
+      
+      //
+      //quand exception
+      //	
+      //	erreur("Une erreur inattendue est survenue", "L'application va se terminer","Détails : ",exceptioninfo())
+      //	finprogramme()
+      //	
+      //FIN
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD OPC
+     identifier : 0x4af44909001d36ec
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==
